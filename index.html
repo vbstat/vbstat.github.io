@@ -1,0 +1,534 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="description" content="VBSTAT | Google Drive links">
+    <meta name="keywords" content="VBSTAT,Visva-Bharati,Statistics,googleDrive,Drive,links">
+    <meta name="author" content="Visva Bharati Statistics BSc 2020-23 Batch">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VBSTAT</title>
+  
+  <!-- https://material.io/resources/icons/?style=round -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.4/tailwind.min.css"><link rel="stylesheet" href="asset/style.css">
+  
+  </head>
+  <body>
+  <!-- partial:index.partial.html -->
+  <section class="min-h-screen flex items-center justify-center bg-yellow-100">
+      
+      <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+  
+  <style>
+  body {
+      font-family: 'Sofia';
+  }
+  .rounded-sm {
+      border-radius: 111rem;
+  }
+  .rounded-lg {
+      border-radius: 1rem;
+  }
+  .rounded-b-lg {
+      border-bottom-right-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+  }
+  
+  .rounded-sm1 {
+      border-radius: 1rem;
+  }
+  
+  
+  [type="search"] {
+  
+      height: 150%;
+      border-radius: 100rem;
+     
+  }
+  
+  
+  
+  
+  #search-box {
+      padding-left: 5%;
+      padding-right: 5%;
+      width: 100%;
+  }
+  </style>
+  
+  <nav class="fixed z-20 top-0 inset-x-0 flex items-center justify-center" x-data="{ navbar: false }">
+          <div class="flex-grow max-w-2xl px-8 h-14 rounded-b-lg shadow-sm bg-white border border-top-0 flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                  <a href="https://vbstat.epizy.com/" class="w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center">
+                      <img src="https://vbstat.epizy.com/favicon.png" alt="VB" width="75%">
+  
+  
+  
+                  </a>
+                  <p class="font-bold text-2xl"><svg width="79.41" height="18.06" viewBox="0 0 79.41 18.06" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-width="0.25mm" fill="black" style="stroke:#d30000;stroke-width:0.25mm;fill:#d30000"><path d="M 12 18.06 L 0 18.06 L 0 12.06 L 2.58 10.5 A 16.098 16.098 0 0 1 1.72 9.619 Q 1.073 8.901 0.66 8.235 A 4.538 4.538 0 0 1 0.156 7.129 A 3.76 3.76 0 0 1 0 6.06 A 8.064 8.064 0 0 1 0.188 4.267 Q 0.488 2.952 1.266 2.007 A 4.999 4.999 0 0 1 1.59 1.65 A 5.237 5.237 0 0 1 4.114 0.27 Q 4.922 0.073 5.873 0.061 A 9.857 9.857 0 0 1 6 0.06 L 18 0.06 L 18 5.58 L 15.12 7.11 A 11.59 11.59 0 0 1 16.512 8.484 Q 17.185 9.282 17.554 10.089 A 4.707 4.707 0 0 1 18 12.06 A 8.064 8.064 0 0 1 17.812 13.853 Q 17.513 15.168 16.734 16.113 A 4.999 4.999 0 0 1 16.41 16.47 A 5.237 5.237 0 0 1 13.887 17.85 Q 13.079 18.047 12.128 18.059 A 9.857 9.857 0 0 1 12 18.06 Z M 24.78 18.06 L 24.78 7.98 L 20.4 7.98 L 20.4 0 L 38.46 0 L 38.46 7.98 L 33.75 7.98 L 33.75 18.06 L 24.78 18.06 Z M 65.73 18.06 L 65.73 7.98 L 61.35 7.98 L 61.35 0 L 79.41 0 L 79.41 7.98 L 74.7 7.98 L 74.7 18.06 L 65.73 18.06 Z M 49.86 0 L 58.95 18.06 L 40.86 18.06 L 49.86 0 Z" vector-effect="non-scaling-stroke"></path></g></svg></p>
+              </div>
+              <div>
+                  <button class="text-gray-500 w-10 h-10 relative focus:outline-none rounded-full hover:bg-gray-100 transition duration-300 ease-in-out" x-on:click="navbar = !navbar, contentNoScroll(true)">
+                      <div class="block w-5 absolute left-1/2 top-1/2   transform  -translate-x-1/2 -translate-y-1/2">
+                          <span class="block absolute h-0.5 w-5 bg-current transform transition duration-300 ease-in-out text-gray-900 rounded-full -translate-y-1.5" x-bind:class="{'rotate-45': navbar,' -translate-y-1.5': !navbar }"></span>
+                          <span class="block absolute h-0.5 w-5 bg-current transform transition duration-300 ease-in-out text-gray-900 rounded-full" x-bind:class="{'opacity-0': navbar } "></span>
+                          <span class="block absolute h-0.5 w-5 bg-current transform transition duration-300 ease-in-out text-gray-900 rounded-full translate-y-1.5" x-bind:class="{'-rotate-45': navbar, ' translate-y-1.5': !navbar}"></span>
+                      </div>
+                  </button>
+                  <div class="fixed z-30 inset-0 bg-gray-600 bg-opacity-50" x-show="navbar" x-transition:enter="transition ease-out duration-500" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-500" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" style="display: none;">
+                      <div class="absolute inset-y-0 left-0 w-56 sm:w-96 bg-gray-100 rounded-r-2xl border-r p-6 sm:p-10 flex flex-col gap-6" x-show="navbar" x-on:click.away="navbar = false, contentNoScroll(false)" x-transition:enter="transition ease-out duration-300 transform" x-transition:enter-start="-translate-x-56 sm:-translate-x-96" x-transition:enter-end="translate-x-0" x-transition:leave="transition ease-in duration-300 transform" x-transition:leave-start="translate-x-0" x-transition:leave-end="-translate-x-56 sm:-translate-x-96" style="display: none;">
+                          <div class="flex items-center gap-2">
+                              <a href="https://vbstat.epizy.com/" class="w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center">
+                                                      <img src="https://vbstat.epizy.com/favicon.png" alt="VB" width="75%">
+  
+                              </a>
+                              <p class="font-bold tracking-wider text-2xl"><svg width="79.41" height="18.06" viewBox="0 0 79.41 18.06" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-width="0.25mm" fill="black" style="stroke:#d30000;stroke-width:0.25mm;fill:#d30000"><path d="M 12 18.06 L 0 18.06 L 0 12.06 L 2.58 10.5 A 16.098 16.098 0 0 1 1.72 9.619 Q 1.073 8.901 0.66 8.235 A 4.538 4.538 0 0 1 0.156 7.129 A 3.76 3.76 0 0 1 0 6.06 A 8.064 8.064 0 0 1 0.188 4.267 Q 0.488 2.952 1.266 2.007 A 4.999 4.999 0 0 1 1.59 1.65 A 5.237 5.237 0 0 1 4.114 0.27 Q 4.922 0.073 5.873 0.061 A 9.857 9.857 0 0 1 6 0.06 L 18 0.06 L 18 5.58 L 15.12 7.11 A 11.59 11.59 0 0 1 16.512 8.484 Q 17.185 9.282 17.554 10.089 A 4.707 4.707 0 0 1 18 12.06 A 8.064 8.064 0 0 1 17.812 13.853 Q 17.513 15.168 16.734 16.113 A 4.999 4.999 0 0 1 16.41 16.47 A 5.237 5.237 0 0 1 13.887 17.85 Q 13.079 18.047 12.128 18.059 A 9.857 9.857 0 0 1 12 18.06 Z M 24.78 18.06 L 24.78 7.98 L 20.4 7.98 L 20.4 0 L 38.46 0 L 38.46 7.98 L 33.75 7.98 L 33.75 18.06 L 24.78 18.06 Z M 65.73 18.06 L 65.73 7.98 L 61.35 7.98 L 61.35 0 L 79.41 0 L 79.41 7.98 L 74.7 7.98 L 74.7 18.06 L 65.73 18.06 Z M 49.86 0 L 58.95 18.06 L 40.86 18.06 L 49.86 0 Z" vector-effect="non-scaling-stroke"></path></g></svg></p>
+                          </div>
+                          <div class="flex flex-col gap-3">
+  
+  
+  
+  
+  
+  
+  
+  <form action="https://vbstat.epizy.com/search.php" method="get" class="search-box-container">
+                  <input type="search" id="search-box" name="s" value="" placeholder="Search...">
+                 
+              </form>
+  <br>
+  
+  
+  
+  
+  
+  
+  
+  
+                              <a href="https://vbstat.epizy.com/" class="relative h-10 pl-12 pr-4 text-sm font-bold rounded-full text-gray-900 tracking-wider rounded-sm hover:bg-yellow-400 focus:outline-none cursor-pointer transition duration-200 ease-in-out flex items-center justify-start gap-2">
+                                  <span class="absolute inset-y-0 left-0 w-10 rounded-full flex items-center justify-center">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+    <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"></path>
+  </svg>
+                                  </span>
+                                  Home
+                              </a>
+  
+  
+  
+  
+                              <a href="https://vbstat.epizy.com/notes/index" class="relative h-10 pl-12 pr-4 text-sm font-bold rounded-full text-gray-900 tracking-wider rounded-sm hover:bg-yellow-400 focus:outline-none cursor-pointer transition duration-200 ease-in-out flex items-center justify-start gap-2">
+                                  <span class="absolute inset-y-0 left-0 w-10 rounded-full flex items-center justify-center">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-pdf" viewBox="0 0 16 16">
+    <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"></path>
+    <path d="M4.603 12.087a.81.81 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.68 7.68 0 0 1 1.482-.645 19.701 19.701 0 0 0 1.062-2.227 7.269 7.269 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.187-.012.395-.047.614-.084.51-.27 1.134-.52 1.794a10.954 10.954 0 0 0 .98 1.686 5.753 5.753 0 0 1 1.334.05c.364.065.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.856.856 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.716 5.716 0 0 1-.911-.95 11.642 11.642 0 0 0-1.997.406 11.311 11.311 0 0 1-1.021 1.51c-.29.35-.608.655-.926.787a.793.793 0 0 1-.58.029zm1.379-1.901c-.166.076-.32.156-.459.238-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361.01.022.02.036.026.044a.27.27 0 0 0 .035-.012c.137-.056.355-.235.635-.572a8.18 8.18 0 0 0 .45-.606zm1.64-1.33a12.647 12.647 0 0 1 1.01-.193 11.666 11.666 0 0 1-.51-.858 20.741 20.741 0 0 1-.5 1.05zm2.446.45c.15.162.296.3.435.41.24.19.407.253.498.256a.107.107 0 0 0 .07-.015.307.307 0 0 0 .094-.125.436.436 0 0 0 .059-.2.095.095 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a3.881 3.881 0 0 0-.612-.053zM8.078 5.8a6.7 6.7 0 0 0 .2-.828c.031-.188.043-.343.038-.465a.613.613 0 0 0-.032-.198.517.517 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822.024.111.054.227.09.346z"></path>
+  </svg>
+                                  </span>
+                                  Notes
+                              </a>
+                              
+                              <a href="https://vbstat.epizy.com/gallery" class="relative h-10 pl-12 pr-4 text-sm font-bold rounded-full text-gray-900 tracking-wider rounded-sm hover:bg-yellow-400 focus:outline-none cursor-pointer transition duration-200 ease-in-out flex items-center justify-start gap-2">
+                                  <span class="absolute inset-y-0 left-0 w-10 rounded-full flex items-center justify-center">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-image" viewBox="0 0 16 16">
+    <path d="M8.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+    <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v8l-2.083-2.083a.5.5 0 0 0-.76.063L8 11 5.835 9.7a.5.5 0 0 0-.611.076L3 12V2z"></path>
+  </svg>
+                                  </span>
+                                  Gallery
+                              </a>
+  
+  <a href="https://vbstat.epizy.com/drive" class="relative h-10 pl-12 pr-4 text-sm font-bold rounded-full text-gray-900 tracking-wider rounded-sm hover:bg-yellow-400 focus:outline-none cursor-pointer transition duration-200 ease-in-out flex items-center justify-start gap-2">
+                                  <span class="absolute inset-y-0 left-0 w-10 rounded-full flex items-center justify-center">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-folder" viewBox="0 0 16 16">
+    <path d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"></path>
+  </svg>
+                                  </span>
+                                  Drive
+                              </a>
+  
+  
+  <a href="https://vbstat.epizy.com/contact" class="relative h-10 pl-12 pr-4 text-sm font-bold rounded-full text-gray-900 tracking-wider rounded-sm hover:bg-yellow-400 focus:outline-none cursor-pointer transition duration-200 ease-in-out flex items-center justify-start gap-2">
+                                  <span class="absolute inset-y-0 left-0 w-10 rounded-full flex items-center justify-center">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+    <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"></path>
+  </svg>
+                                  </span>
+                                  Contact
+                              </a>
+  
+  
+  
+  
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </nav>	
+      
+      <div class="flex-grow max-w-2xl flex flex-col gap-8 py-6 mt-12">
+  
+  
+  
+  
+      
+          <div class="flex flex-col gap-3 bg-white p-8 rounded-lg shadow-lg">
+          <p class="font-bold tracking-wider text-2xl">Previous Questions •</p>
+      <iframe src="https://drive.google.com/embeddedfolderview?id=1DGsnQuoRfy8DHPGFFPZVHiOwYph4Al4L" style="width:100%; height:auto; border:0; "></iframe>	
+          </div>
+  
+          
+  
+  
+  
+  
+  
+  <div class="flex flex-col gap-3 bg-white p-8 rounded-lg shadow-lg">
+          
+         
+              <div class="flex flex-col md:flex-row gap-4">
+  <p class="font-bold tracking-wider text-2xl">SQC • <a href="https://egyankosh.ac.in/simple-search?query=Statistical+quality+control" target="_blank">From Egyankosh</a></p>
+      <iframe src="https://drive.google.com/embeddedfolderview?id=1xtZm3E3B8NYyDIbiW-Pal0U9k2_gFPDN" style="width:100%; height:60vh; border:0; "></iframe>
+  
+                              </div>		
+          </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+          <div class="flex flex-col gap-3 bg-white p-8 rounded-lg shadow-lg">
+              
+  
+  
+              
+              <div class="flex flex-col md:flex-row gap-4">
+  <p class="font-bold tracking-wider text-2xl">Sample Survey •</p>
+      <iframe src="https://drive.google.com/embeddedfolderview?id=1bUFe4GexnuhAcFGkTKhdKxpr7NMuQvRl" style="width:100%; height:50vh; border:0; "></iframe>
+  
+                              </div>
+  
+  
+  
+  
+          </div>
+          <div class="flex flex-col gap-3 bg-white p-8 rounded-lg shadow-lg">
+          <p class="font-bold tracking-wider text-2xl">Linear Models •</p>
+      <iframe src="https://drive.google.com/embeddedfolderview?id=1VgnvdBanGD7ejg4QATuqUcHpjjKyI8dz" style="width:100%; height:50vh; border:0; "></iframe>
+  
+              
+          </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      <div class="flex flex-col gap-3 bg-white p-8 rounded-lg shadow-lg">
+      <p class="font-bold tracking-wider text-2xl">Pdf Books •</p>
+  
+                  <iframe src="https://drive.google.com/embeddedfolderview?id=1--Y-uSL5J_4pdBYN6YbZLlOE7j6kTVas" style="width:100%; height:50vh; border:0; "></iframe>
+  
+          </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+          <div class="flex flex-col gap-3 bg-white p-8 rounded-lg shadow-lg">
+          <p class="font-bold tracking-wider text-2xl">Previous Notes •</p>
+      <iframe src="https://drive.google.com/embeddedfolderview?id=1-2fW2w5TDUX3NHltu5C5pYR86TgU0En3" style="width:100%; height:50vh; border:0; "></iframe>	
+          </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+              <div class="flex flex-col gap-3 bg-white p-8 rounded-lg shadow-lg">
+           <style>
+  :root {
+  
+    --color: #004ef5;
+    --color-smooth: #9da2ae;
+    --input-border: #3a456a;
+    --btn-bg-color: #f1f2fc;
+    --btn-hover-bg: #d5d9f6;
+    --btn-color: #1e2641;
+  }
+  
+  footer {
+    font-size: 16px;
+    background: var(--footer-bg);
+    padding: 2em 4em;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  .col {
+    flex: 1;
+  }
+  
+  .col-title {
+    font-family: "Merriweather", serif;
+    color: var(--color);
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 0.5em 0;
+  }
+  
+  .col-list a {
+    color: var(--color-smooth);
+    text-decoration: none;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+  
+  .col-list a:hover,
+  .col-list a:focus {
+  
+  }
+  
+  .subscribe-form .social-media {
+    display: flex;
+    gap: 0.5em;
+    padding: 0.5em 0;
+  }
+  
+  .subscribe-input {
+    width: auto;
+    flex: 1;
+    background: transparent;
+    border: 0.06em solid var(--input-border);
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0.5em;
+    border-radius: 5rem;
+    transition: all 0.25s ease 0s;
+    display: inline-block;
+    color: var(--color-smooth);
+  }
+  
+  .subscribe-input:focus {
+    outline: none;
+    border-color: var(--color);
+    color: var(--color);
+  }
+  
+  .subscribe-btn {
+    background-color: #f44336;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0.5em;
+    border-radius:  10rem;
+    transition: all 0.25s ease 0s;
+    display: inline-block;
+    color: var(--btn-color);
+    cursor: pointer;
+  }
+  
+  .subscribe-btn:hover,
+  .subscribe-btn:focus {
+    background: var(--btn-hover-bg);
+  }
+  
+  .form-title,
+  .social-col-title {
+    font-size: 1em;
+    color: var(--color);
+    font-weight: 500;
+  }
+  
+  .social-media {
+    flex-direction: column;
+  }
+  
+  .social-media-list {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .social-media-list a {
+    padding: 0.5em;
+    color: var(--color-smooth);
+    display: flex;
+    border-radius: 0.3em;
+    transition: all 0.25s ease 0s;
+  }
+  
+  .social-media-list a:hover,
+  .social-media-list a:focus {
+    color: var(--color);
+    background: #ffffff1a;
+  }
+  
+  .social-media-list svg {
+    width: 1.5em;
+    height: 1.5em;
+    transition: all 0.25s ease 0s;
+  }
+  
+  @media screen and (max-width: 750px) {
+    footer {
+      padding: 2em;
+      flex-direction: column;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .md\:flex-row {
+      
+      flex-direction: column;
+  }
+  
+  
+  
+  
+  
+  
+  
+  </style>
+  
+  
+  <footer class="footer" id="footer">
+  
+    <span class="col">
+      <h3>Pages</h3>
+      <nav class="col-list">
+        <ul>
+          <li><a href="https://vbstat.epizy.com/notes/index">Notes</a></li>
+          <li><a href="https://vbstat.epizy.com/gallery">Gallery</a></li>
+          <li><a href="https://vbstat.epizy.com/drive">Drive</a></li>
+        </ul>
+      </nav>
+    </span>
+  
+    <span class="col">
+      <h3>Links</h3>
+      <nav class="col-list">
+        <ul>
+     <li><a href="https://vbstat.epizy.com/sitemap.xml">Sitemap</a></li>
+          <li><a href="https://vbstat.epizy.com/contact">Contact</a></li>
+          <li><a href="mailto:vbstatepizy@gmail.com">Email</a></li>
+        </ul>
+      </nav>
+    </span>
+  
+    <span class="col">
+      
+   <a href="https://vbstat.epizy.com/" target="_blank"></a>
+  
+      <div style="padding-top:10px;">
+  <p><svg width="103.113" height="19.53" viewBox="0 0 103.113 19.53" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-width="0.25mm" fill="black" style="stroke:#000;stroke-width:0.25mm;fill:black"><path d="M 14.265 14.189 C 14.465 14.369 14.925 13.909 14.905 13.409 C 15.779 10.993 19.088 3.826 20.354 1.573 A 8.829 8.829 0 0 1 20.605 1.149 A 134.513 134.513 0 0 0 20.315 4.341 C 20.203 5.799 20.125 7.283 20.125 8.689 C 20.125 9.229 20.145 9.769 20.165 10.289 C 20.27 12.383 20.564 15.505 21.651 16.947 A 1.722 1.722 0 0 0 23.045 17.729 C 23.285 17.729 23.245 17.509 23.125 17.469 C 21.625 16.989 21.005 14.109 20.885 10.169 C 20.865 9.669 20.865 9.189 20.865 8.689 A 47.952 47.952 0 0 1 20.874 7.755 C 20.915 5.633 21.093 3.512 21.345 0.895 A 421.605 421.605 0 0 1 21.365 0.689 A 0.422 0.422 0 0 0 21.366 0.668 C 21.366 0.27 20.819 -0.264 20.505 0.149 C 19.708 0.827 15.969 8.976 14.578 12.416 A 49.319 49.319 0 0 0 14.565 12.449 C 13.725 9.009 13.505 5.249 13.045 2.469 C 12.967 2.097 12.331 1.705 12.249 1.953 A 0.154 0.154 0 0 0 12.245 1.969 A 0.051 0.051 0 0 1 12.242 1.984 C 12.238 1.998 12.231 2.012 12.242 2.026 A 0.038 0.038 0 0 0 12.245 2.029 A 2.601 2.601 0 0 0 12.232 2.114 C 12.2 2.36 12.176 2.722 12.105 2.989 A 18.087 18.087 0 0 1 11.682 4.296 C 10.043 8.823 5.529 16.908 0.289 15.451 A 4.981 4.981 0 0 1 0.145 15.409 C -0.042 15.353 -0.037 15.506 0.095 15.64 A 0.535 0.535 0 0 0 0.125 15.669 A 4.132 4.132 0 0 0 1.875 16.054 C 4.571 16.054 7.484 13.543 9.731 9.907 A 26.785 26.785 0 0 0 12.585 3.469 A 81.542 81.542 0 0 0 13.839 12.137 A 100.507 100.507 0 0 0 14.265 14.189 Z M 62.865 9.409 L 63.005 6.049 C 63.155 6.049 63.287 6.031 63.435 6.013 A 22.224 22.224 0 0 1 63.465 6.009 C 64.687 5.913 66.439 5.764 68.191 5.71 A 41.201 41.201 0 0 1 69.465 5.689 A 25.223 25.223 0 0 1 71.187 5.742 C 71.628 5.772 72.044 5.817 72.426 5.882 A 8.537 8.537 0 0 1 72.685 5.929 C 72.841 5.949 72.94 5.873 72.926 5.722 A 0.344 0.344 0 0 0 72.925 5.709 A 0.765 0.765 0 0 0 72.89 5.661 C 72.795 5.541 72.623 5.379 72.465 5.309 C 71.745 5.149 70.705 5.089 69.565 5.089 A 44.723 44.723 0 0 0 67.67 5.134 C 66.242 5.195 64.796 5.306 63.625 5.389 A 8.484 8.484 0 0 1 63.183 5.426 A 2.998 2.998 0 0 1 63.045 5.429 A 78.36 78.36 0 0 1 63.193 3.159 C 63.25 2.449 63.315 1.809 63.385 1.309 A 0.404 0.404 0 0 0 63.19 1.037 C 62.946 0.879 62.565 0.881 62.565 1.097 A 0.191 0.191 0 0 0 62.565 1.109 C 62.489 2.28 62.396 3.755 62.319 5.229 A 199.843 199.843 0 0 0 62.305 5.489 C 60.298 5.652 58.983 5.789 57.796 5.975 A 31.043 31.043 0 0 0 57.005 6.109 A 0.23 0.23 0 0 0 56.949 6.129 C 56.731 6.246 57.069 6.658 57.408 6.654 A 0.397 0.397 0 0 0 57.465 6.649 C 59.065 6.369 60.625 6.249 62.285 6.109 C 62.233 7.177 62.195 8.213 62.173 9.086 A 95.736 95.736 0 0 0 62.165 9.449 A 123.52 123.52 0 0 0 62.15 10.087 C 62.144 10.409 62.138 10.761 62.133 11.135 A 111.369 111.369 0 0 0 62.125 12.469 A 133.044 133.044 0 0 0 62.131 13.685 C 62.152 15.984 62.235 18.282 62.416 18.921 A 1.07 1.07 0 0 0 62.425 18.949 A 0.912 0.912 0 0 0 62.569 19.209 C 62.798 19.508 63.171 19.69 63.125 19.331 A 0.609 0.609 0 0 0 63.125 19.329 A 5.995 5.995 0 0 1 62.979 18.576 C 62.834 17.528 62.785 15.983 62.785 14.389 A 90.103 90.103 0 0 1 62.786 13.892 C 62.796 12.232 62.847 10.573 62.865 9.409 Z M 66.065 11.949 L 66.065 10.169 A 107.247 107.247 0 0 1 66.308 3.352 A 47.897 47.897 0 0 1 66.405 2.269 C 66.405 2.002 65.785 1.782 65.65 1.936 A 0.108 0.108 0 0 0 65.625 2.009 A 216.593 216.593 0 0 0 65.528 3.917 C 65.463 5.343 65.415 6.768 65.395 8.266 A 114.471 114.471 0 0 0 65.385 9.789 L 65.385 12.629 A 94.572 94.572 0 0 0 65.385 12.828 C 65.386 13.092 65.389 13.257 65.405 13.289 A 0.422 0.422 0 0 0 65.495 13.455 C 65.69 13.685 66.1 13.814 66.085 13.57 A 1.099 1.099 0 0 1 66.166 13.261 C 66.568 12.263 68.323 10.588 69.357 10.588 A 0.916 0.916 0 0 1 69.405 10.589 A 1.249 1.249 0 0 1 69.402 10.67 C 69.393 10.799 69.37 10.979 69.366 11.184 A 3.078 3.078 0 0 0 69.365 11.249 C 69.365 11.669 69.465 12.189 69.925 12.529 A 2.527 2.527 0 0 0 70.414 12.78 A 2.37 2.37 0 0 0 71.265 12.929 C 72.545 12.929 74.045 12.169 74.485 11.509 C 74.783 11.072 74.884 10.436 74.708 10.645 A 0.351 0.351 0 0 0 74.705 10.649 C 74.122 11.432 72.279 12.199 71.169 12.33 A 2.62 2.62 0 0 1 70.865 12.349 C 70.645 12.349 70.425 12.309 70.225 12.209 C 70.085 11.629 70.245 11.069 70.185 10.589 A 0.728 0.728 0 0 0 70.016 10.314 C 69.902 10.191 69.749 10.09 69.595 10.032 A 0.918 0.918 0 0 0 69.525 10.009 C 68.387 9.65 66.69 11.244 66.068 11.946 A 6.471 6.471 0 0 0 66.065 11.949 Z M 36.305 17.069 L 36.285 17.069 L 36.245 17.029 A 0.568 0.568 0 0 1 36.205 16.943 C 36.156 16.815 36.099 16.597 36.005 16.269 A 6.558 6.558 0 0 1 35.913 15.723 C 35.867 15.37 35.838 14.972 35.825 14.549 A 12.743 12.743 0 0 1 35.768 13.415 A 54.619 54.619 0 0 1 35.765 12.689 C 35.765 11.789 35.785 10.849 35.825 9.909 A 41.93 41.93 0 0 1 35.873 8.729 C 35.889 8.418 35.91 8.09 35.937 7.734 A 63.062 63.062 0 0 1 35.965 7.369 A 2.183 2.183 0 0 1 35.986 7.181 C 36.035 6.845 36.152 6.402 36.185 6.069 C 36.281 5.163 36.489 2.936 36.522 1.971 A 8.796 8.796 0 0 0 36.525 1.869 C 36.486 1.577 35.859 1.228 35.771 1.487 A 0.176 0.176 0 0 0 35.765 1.509 A 0.478 0.478 0 0 0 35.755 1.564 C 35.692 1.955 35.38 4.338 35.241 5.919 A 33.681 33.681 0 0 0 35.225 6.109 L 35.185 6.829 C 34.945 7.889 34.685 8.909 34.265 10.009 L 34.105 9.949 A 6.309 6.309 0 0 0 33.657 9.849 C 33.328 9.789 33.046 9.769 32.765 9.769 C 31.905 9.769 31.325 10.049 30.925 10.429 C 30.665 10.689 30.505 11.069 30.505 11.449 A 1.321 1.321 0 0 0 30.544 11.767 C 30.608 12.026 30.754 12.286 31.001 12.527 A 2.335 2.335 0 0 0 31.185 12.689 C 31.645 13.029 32.025 13.089 32.405 13.089 A 2.138 2.138 0 0 0 33.849 12.262 C 34.291 11.751 34.624 11.085 34.866 10.503 A 13.598 13.598 0 0 0 35.045 10.049 L 35.045 10.769 C 35.045 11.309 35.025 11.869 35.025 12.389 C 35.025 13.029 35.045 13.649 35.085 14.209 A 11.249 11.249 0 0 0 35.142 15.06 C 35.179 15.405 35.229 15.719 35.285 15.989 A 3.867 3.867 0 0 0 35.319 16.155 C 35.407 16.542 35.56 16.929 35.805 17.209 A 1.356 1.356 0 0 0 36.028 17.411 A 1.137 1.137 0 0 0 36.385 17.589 A 0.711 0.711 0 0 0 36.426 17.595 C 36.615 17.618 36.681 17.539 36.625 17.389 C 36.589 17.281 36.456 17.157 36.343 17.09 A 0.591 0.591 0 0 0 36.305 17.069 Z M 85.362 11.619 A 3.111 3.111 0 0 0 85.485 11.329 C 85.565 11.09 85.525 10.592 85.327 10.867 A 0.552 0.552 0 0 0 85.325 10.869 C 85.052 11.215 83.019 13.952 81.873 13.952 A 0.576 0.576 0 0 1 81.565 13.869 A 0.779 0.779 0 0 1 81.319 13.528 C 81.064 12.942 80.965 11.767 80.965 10.369 C 80.965 6.909 81.545 2.109 81.665 1.729 C 81.665 1.631 81.511 1.475 81.316 1.375 A 1.053 1.053 0 0 0 81.305 1.369 C 81.105 1.289 80.985 1.309 80.965 1.429 A 3.712 3.712 0 0 0 80.891 1.725 C 80.612 3.012 80.145 6.859 80.145 9.889 C 80.145 11.234 80.237 12.422 80.474 13.143 A 1.927 1.927 0 0 0 80.665 13.569 A 2.349 2.349 0 0 0 81.413 14.261 A 1.724 1.724 0 0 0 82.265 14.489 C 83.414 14.489 84.845 12.694 85.362 11.619 Z M 52.293 11.173 A 64.403 64.403 0 0 0 52.299 11.146 C 52.31 11.094 52.315 11.064 52.292 11.036 A 0.1 0.1 0 0 0 52.285 11.029 C 52.325 10.709 51.705 10.409 51.645 10.709 A 0.087 0.087 0 0 0 51.62 10.765 C 51.615 10.802 51.617 10.86 51.605 10.969 C 51.553 11.211 51.201 12.248 50.784 12.639 A 0.594 0.594 0 0 1 50.585 12.769 C 50.432 12.826 50.151 12.792 50.057 12.545 A 0.439 0.439 0 0 1 50.045 12.509 A 1.683 1.683 0 0 1 49.965 11.986 A 2.858 2.858 0 0 1 49.965 11.949 C 49.965 11.22 50.334 10.414 50.593 10.007 A 2.737 2.737 0 0 1 50.605 9.989 A 0.137 0.137 0 0 0 50.645 9.888 C 50.645 9.791 50.566 9.67 50.465 9.569 C 50.305 9.449 50.105 9.409 50.065 9.529 C 49.724 9.946 49.401 10.846 49.351 11.433 A 1.881 1.881 0 0 0 49.345 11.529 C 49.325 11.829 49.365 12.129 49.465 12.409 A 1.839 1.839 0 0 0 49.526 12.568 C 49.588 12.709 49.677 12.862 49.806 13 A 1.323 1.323 0 0 0 50.025 13.189 A 1.638 1.638 0 0 0 50.3 13.309 C 50.424 13.349 50.541 13.369 50.645 13.369 C 51.247 13.369 51.637 12.802 51.864 12.235 A 3.83 3.83 0 0 0 51.905 12.129 A 2.393 2.393 0 0 0 52.628 12.821 C 52.906 12.993 53.196 13.092 53.437 13.092 A 0.816 0.816 0 0 0 53.505 13.089 A 1.015 1.015 0 0 0 54.326 12.536 C 54.488 12.263 54.579 11.932 54.611 11.642 A 2.117 2.117 0 0 0 54.625 11.409 A 4.558 4.558 0 0 0 54.961 11.495 C 55.183 11.542 55.405 11.569 55.645 11.569 A 3.579 3.579 0 0 0 56.817 11.367 A 4.325 4.325 0 0 0 57.485 11.069 C 57.805 10.889 58.225 10.349 57.665 10.529 A 5.988 5.988 0 0 1 56.728 10.831 C 56.427 10.9 56.136 10.939 55.862 10.947 A 3.704 3.704 0 0 1 55.745 10.949 C 55.305 10.949 54.905 10.869 54.585 10.709 C 54.625 10.389 54.325 9.809 53.945 10.029 A 0.394 0.394 0 0 0 53.794 10.239 C 53.746 10.395 53.771 10.609 53.91 10.868 A 1.732 1.732 0 0 0 53.945 10.929 C 53.964 11.501 53.729 12.872 52.928 12.48 A 1.066 1.066 0 0 1 52.805 12.409 A 0.945 0.945 0 0 1 52.419 11.882 C 52.342 11.654 52.316 11.407 52.285 11.209 A 1.132 1.132 0 0 1 52.285 11.208 M 26.845 9.909 L 26.505 10.369 L 26.485 10.369 C 25.985 10.149 25.425 10.029 24.865 10.029 A 3.626 3.626 0 0 0 23.29 10.372 A 2.911 2.911 0 0 0 22.945 10.569 C 22.596 10.806 22.383 11.092 22.287 11.393 A 1.291 1.291 0 0 0 22.225 11.789 A 1.267 1.267 0 0 0 22.549 12.634 A 1.759 1.759 0 0 0 22.825 12.889 C 23.045 13.029 23.285 13.089 23.545 13.089 C 24.53 13.089 25.738 12.209 26.354 11.683 A 7.895 7.895 0 0 0 26.485 11.569 A 2.103 2.103 0 0 0 26.797 12.148 A 1.917 1.917 0 0 0 27.905 12.829 A 1.42 1.42 0 0 0 28.162 12.864 C 28.943 12.904 30.007 12.419 30.517 11.988 A 1.756 1.756 0 0 0 30.625 11.889 C 31.679 10.835 31.448 10.332 31.127 10.591 A 0.541 0.541 0 0 0 31.085 10.629 A 3.492 3.492 0 0 1 30.903 10.816 C 30.116 11.569 28.603 12.414 27.658 12.255 A 1.243 1.243 0 0 1 27.625 12.249 A 0.528 0.528 0 0 1 27.317 12.021 C 27.206 11.851 27.173 11.618 27.185 11.409 C 27.22 11.081 27.359 10.768 27.46 10.495 A 3.81 3.81 0 0 0 27.505 10.369 C 27.629 10.156 27.106 9.785 26.904 9.859 A 0.107 0.107 0 0 0 26.845 9.909 Z M 40.465 13.489 A 4.017 4.017 0 0 0 43.644 11.35 A 3.467 3.467 0 0 0 43.685 11.269 A 3.898 3.898 0 0 0 43.789 11.044 C 43.965 10.627 43.98 10.352 43.654 10.66 A 2.025 2.025 0 0 0 43.585 10.729 A 20.959 20.959 0 0 1 43.226 11.098 C 42.729 11.594 42.092 12.158 41.326 12.544 A 4.107 4.107 0 0 1 39.465 13.009 C 38.806 13.009 38.148 12.442 38.022 12.059 A 0.452 0.452 0 0 1 38.005 11.989 A 1.794 1.794 0 0 0 38.374 11.949 C 38.873 11.843 39.386 11.541 39.673 11.142 A 1.32 1.32 0 0 0 39.825 10.869 C 39.967 10.496 39.777 10.114 39.458 9.889 A 1.076 1.076 0 0 0 38.845 9.689 A 1.527 1.527 0 0 0 37.786 10.172 C 37.465 10.508 37.28 10.978 37.266 11.449 A 1.947 1.947 0 0 0 37.265 11.509 C 37.265 11.709 37.305 11.909 37.365 12.089 A 1.898 1.898 0 0 0 38.676 13.295 C 39.13 13.445 39.641 13.498 40.12 13.498 A 6.801 6.801 0 0 0 40.465 13.489 Z M 99.665 13.489 A 4.017 4.017 0 0 0 102.844 11.35 A 3.467 3.467 0 0 0 102.885 11.269 A 3.898 3.898 0 0 0 102.989 11.044 C 103.165 10.627 103.18 10.352 102.854 10.66 A 2.025 2.025 0 0 0 102.785 10.729 A 20.959 20.959 0 0 1 102.426 11.098 C 101.929 11.594 101.292 12.158 100.526 12.544 A 4.107 4.107 0 0 1 98.665 13.009 C 98.006 13.009 97.348 12.442 97.222 12.059 A 0.452 0.452 0 0 1 97.205 11.989 A 1.794 1.794 0 0 0 97.574 11.949 C 98.073 11.843 98.586 11.541 98.873 11.142 A 1.32 1.32 0 0 0 99.025 10.869 C 99.167 10.496 98.977 10.114 98.658 9.889 A 1.076 1.076 0 0 0 98.045 9.689 A 1.527 1.527 0 0 0 96.986 10.172 C 96.665 10.508 96.48 10.978 96.466 11.449 A 1.947 1.947 0 0 0 96.465 11.509 C 96.465 11.709 96.505 11.909 96.565 12.089 A 1.898 1.898 0 0 0 97.876 13.295 C 98.33 13.445 98.841 13.498 99.32 13.498 A 6.801 6.801 0 0 0 99.665 13.489 Z M 94.065 10.669 L 94.065 10.649 C 94.224 10.119 93.899 9.792 93.656 9.792 A 0.235 0.235 0 0 0 93.565 9.809 A 0.509 0.509 0 0 0 93.434 9.941 C 93.322 10.1 93.257 10.353 93.342 10.66 A 1.179 1.179 0 0 0 93.345 10.669 C 93.16 11.206 92.599 12.546 92.23 12.76 A 0.194 0.194 0 0 1 92.145 12.789 C 91.767 12.335 91.675 10.932 91.734 10.257 A 2.645 2.645 0 0 1 91.745 10.149 C 91.782 10.018 91.645 9.835 91.529 9.746 A 0.458 0.458 0 0 0 91.505 9.729 A 0.51 0.51 0 0 0 91.429 9.698 C 91.347 9.672 91.271 9.674 91.213 9.697 A 0.165 0.165 0 0 0 91.105 9.829 C 91.045 10.109 91.025 10.389 91.025 10.689 A 4.823 4.823 0 0 0 91.044 11.112 C 91.106 11.821 91.328 12.529 91.745 13.029 A 0.944 0.944 0 0 0 91.838 13.111 C 92.038 13.265 92.226 13.258 92.439 13.206 A 4.504 4.504 0 0 0 92.645 13.149 C 93.096 13.005 93.563 12.129 93.812 11.416 A 5.127 5.127 0 0 0 93.885 11.189 A 1.1 1.1 0 0 0 94.256 11.369 C 94.513 11.444 94.825 11.469 95.145 11.469 C 95.653 11.469 96.199 11.393 96.572 11.302 A 2.698 2.698 0 0 0 96.825 11.229 C 97.256 11.072 97.61 10.609 97.136 10.665 A 0.899 0.899 0 0 0 97.105 10.669 A 88.438 88.438 0 0 1 96.844 10.708 C 96.359 10.778 95.805 10.849 95.265 10.849 A 4.058 4.058 0 0 1 94.291 10.735 A 3.088 3.088 0 0 1 94.065 10.669 Z M 57.525 12.789 A 1.506 1.506 0 0 0 58.135 13.195 C 58.363 13.278 58.605 13.311 58.841 13.311 A 2.592 2.592 0 0 0 58.945 13.309 A 2.432 2.432 0 0 0 59.493 13.216 C 60.746 12.865 62.147 11.621 62.508 11 A 1.22 1.22 0 0 0 62.525 10.969 A 1.418 1.418 0 0 0 62.566 10.888 C 62.74 10.514 62.56 10.414 62.485 10.489 A 4.794 4.794 0 0 1 62.272 10.688 C 61.485 11.382 59.646 12.689 58.525 12.689 A 1.037 1.037 0 0 1 58.158 12.626 A 0.859 0.859 0 0 1 57.945 12.509 A 0.214 0.214 0 0 1 57.891 12.423 C 57.702 11.936 58.055 9.985 58.204 9.83 A 0.061 0.061 0 0 1 58.205 9.829 A 0.115 0.115 0 0 0 58.207 9.807 C 58.207 9.706 58.089 9.563 57.885 9.489 C 57.667 9.434 57.481 9.446 57.435 9.524 A 0.078 0.078 0 0 0 57.425 9.549 C 57.289 9.759 57.191 10.076 57.136 10.434 A 4.635 4.635 0 0 0 57.085 11.129 A 4.664 4.664 0 0 0 57.086 11.233 C 57.097 11.734 57.189 12.234 57.371 12.569 A 1.05 1.05 0 0 0 57.525 12.789 Z M 91.045 10.829 A 1.712 1.712 0 0 0 91.156 10.788 C 91.543 10.628 91.617 10.411 91.085 10.429 C 90.905 10.429 90.125 10.509 89.185 10.509 C 88.84 10.509 88.461 10.498 88.083 10.467 A 10.02 10.02 0 0 1 87.705 10.429 A 1.975 1.975 0 0 0 86.912 9.859 A 2.189 2.189 0 0 0 86.425 9.729 C 86.025 9.709 85.885 9.929 85.805 10.209 A 0.116 0.116 0 0 0 85.786 10.211 C 85.758 10.215 85.738 10.229 85.705 10.229 C 85.297 10.371 84.842 11.142 84.842 11.901 A 1.753 1.753 0 0 0 84.865 12.189 C 84.964 12.744 85.457 13.359 86.187 13.408 A 1.389 1.389 0 0 0 86.205 13.409 A 2.264 2.264 0 0 0 86.352 13.414 C 87.211 13.414 87.955 12.915 88.125 11.969 C 88.185 11.669 88.165 11.369 88.085 11.109 C 89.305 11.169 90.605 10.989 91.045 10.829 Z M 23.185 12.449 C 22.885 12.429 22.765 12.209 22.825 11.969 A 1.392 1.392 0 0 1 23.525 11.115 C 24.048 10.806 24.764 10.669 25.365 10.669 A 3.307 3.307 0 0 1 25.768 10.693 C 25.864 10.705 25.955 10.721 26.036 10.74 A 1.814 1.814 0 0 1 26.145 10.769 C 25.558 11.39 24.548 12.067 23.671 12.34 A 2.835 2.835 0 0 1 23.185 12.449 Z M 34.045 10.469 L 34.025 10.509 C 33.725 11.109 33.312 11.843 32.743 12.249 A 1.573 1.573 0 0 1 31.985 12.549 A 0.953 0.953 0 0 1 31.789 12.53 A 0.706 0.706 0 0 1 31.465 12.369 C 31.366 12.298 31.287 12.167 31.249 12.005 A 0.956 0.956 0 0 1 31.225 11.789 A 1.074 1.074 0 0 1 31.265 11.502 C 31.315 11.32 31.417 11.13 31.585 10.949 A 1.456 1.456 0 0 1 32.025 10.63 C 32.313 10.492 32.698 10.409 33.225 10.409 A 5.248 5.248 0 0 1 33.561 10.421 C 33.714 10.43 33.876 10.447 34.045 10.469 Z M 86.105 10.669 L 86.145 10.629 A 2.058 2.058 0 0 0 86.534 10.82 C 86.667 10.87 86.813 10.913 86.97 10.949 A 5.285 5.285 0 0 0 87.265 11.009 C 87.585 11.729 87.145 12.869 86.265 12.909 C 85.895 12.929 85.676 12.72 85.573 12.172 A 2.771 2.771 0 0 1 85.565 12.129 C 85.468 11.585 85.824 10.908 86.083 10.687 A 0.555 0.555 0 0 1 86.105 10.669 Z M 57.945 6.949 L 57.905 7.249 A 2.033 2.033 0 0 0 57.892 7.282 C 57.844 7.411 57.732 7.724 57.691 7.8 A 0.13 0.13 0 0 1 57.685 7.809 C 57.585 7.889 57.705 8.069 57.945 8.149 A 0.619 0.619 0 0 0 58.087 8.206 C 58.234 8.244 58.38 8.229 58.425 8.169 C 58.485 8.069 58.645 7.629 58.685 7.529 A 0.495 0.495 0 0 0 58.72 7.437 C 58.739 7.364 58.744 7.291 58.745 7.234 A 2.554 2.554 0 0 0 58.745 7.189 A 0.087 0.087 0 0 0 58.751 7.157 C 58.751 7.067 58.626 6.948 58.429 6.886 A 0.867 0.867 0 0 0 58.365 6.869 A 0.592 0.592 0 0 0 58.315 6.852 C 58.185 6.813 58.054 6.822 57.989 6.87 A 0.096 0.096 0 0 0 57.945 6.949 Z M 37.985 11.509 A 4.795 4.795 0 0 0 38.177 11.417 C 38.908 11.047 39.368 10.572 39.165 10.369 A 0.37 0.37 0 0 0 39.123 10.333 C 38.695 10.017 37.966 11.025 37.985 11.509 Z M 97.185 11.509 A 4.795 4.795 0 0 0 97.377 11.417 C 98.108 11.047 98.568 10.572 98.365 10.369 A 0.37 0.37 0 0 0 98.323 10.333 C 97.895 10.017 97.166 11.025 97.185 11.509 Z M 52.291 11.18 A 4.023 4.023 0 0 1 52.291 11.179 C 52.29 11.185 52.289 11.191 52.287 11.197 A 5.981 5.981 0 0 1 52.287 11.197 M 52.285 11.208 C 52.285 11.207 52.285 11.207 52.286 11.206 M 52.286 11.206 A 1.267 1.267 0 0 1 52.286 11.205" vector-effect="non-scaling-stroke"></path></g></svg></p>
+        <ul class="social-media-list">
+          <li><a href="https://www.facebook.com/vbstat" class="facebook"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+  </svg></a></li>
+          <li><a href="mailto:vbstat.epizy@gmail.com" class="email"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path>
+  </svg></a></li>
+          <li><a href="https://github.com/vbstat" class="icon-13 github" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+  </svg><!--[if lt IE 9]><em>GitHub</em><![endif]--></a></li>
+        </ul>
+      </div>
+    </span>
+  
+  </footer>
+  
+       </div>
+      </div>
+  
+  
+  
+  
+  
+  
+      
+  </section>
+  <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.2/alpine.js"></script><script src="./script.js"></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </body></html>
+  
+  
+  
