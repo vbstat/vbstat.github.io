@@ -14,3 +14,15 @@ Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de 
 | Friday    | 8:30am - 5:00pm |
 | Saturday  | 10:am - 4:00pm  |
 | Saturday  | Closed          |
+
+
+
+
+<h1>List of Note Files</h1>
+<ul>
+  {% for file in site.static_files %}
+    {% if file.path contains '/note/calculus/' %}
+      <li><a href="{{ file.path }}">{{ file.basename }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
