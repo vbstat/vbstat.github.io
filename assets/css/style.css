@@ -238,7 +238,7 @@ a:focus {
 }
 
 .bg-overlay:after {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(40,40,40, 0.8);
   z-index: 0;
   position: absolute;
   content: "";
@@ -715,7 +715,7 @@ ul.top-info li p.info-text {
 
 .header-two {
   background: #fff;
-  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
   padding: 15px 0;
 }
 .header-two .navbar-fixed {
@@ -881,8 +881,8 @@ ul.top-info-box > li.nav-search i {
   margin: 10px 0;
   padding: 6px;
   border-radius: 0;
-  font-size: 1rem;
-  background: #ffb600;
+  /* font-size: 1rem; */
+  border: none;
 }
 .navbar-toggler:focus {
   outline: 0;
@@ -2501,9 +2501,9 @@ img.testimonial-thumb {
   width: 36px;
   height: 36px;
   line-height: 36px;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(227, 0, 0, 0.9);
   border-radius: 3px;
-  color: #ffb600;
+  color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   padding: 0;
@@ -2518,7 +2518,7 @@ img.testimonial-thumb {
 }
 
 #back-to-top .btn.btn-primary:hover {
-  color: #fff;
+  color: #19a3ff;
 }
 
 /* Sub Pages
