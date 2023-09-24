@@ -1,0 +1,33 @@
+- title: Capital Teltway Building
+  image: /assets/images/projects/project1.jpg
+  categories:
+    - government
+    - healthcare
+
+- title: Ghum Touch Hospital
+  image: /assets/images/projects/project2.jpg
+  categories:
+    - healthcare
+
+- title: TNT East Facility
+  image: /assets/images/projects/project3.jpg
+  categories:
+    - government
+    - commercial
+
+- title: Narriot Headquarters
+  image: /assets/images/projects/project4.jpg
+  categories:
+    - infrastructure
+    - education
+
+- title: Kalas Metrorail
+  image: /assets/images/projects/project5.jpg
+  categories:
+    - infrastructure
+    - education
+
+- title: Ancraft Avenue House
+  image: /assets/images/projects/project6.jpg
+  categories:
+    - residential

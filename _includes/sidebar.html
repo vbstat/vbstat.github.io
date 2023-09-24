@@ -1,0 +1,16 @@
+
+      <div class="widget">
+         
+        <ul class="nav service-menu">
+            {% assign navItems = site.data.sidebar %}
+            {% for item in navItems %}
+              <li class="{% if page.url == item.url %}active{% endif %}">
+                <a href="{{ item.url }}">{{ item.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+          
+      </div><!-- Widget end -->
+
+       
+

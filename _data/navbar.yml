@@ -1,0 +1,32 @@
+- title: About Us
+  items:
+    - title: About the Department
+      url: /about-department
+    - title: Department Location
+      url: /about-department-location
+    - title: Contact Address
+      url: /contact-address
+- title: Admission
+  items:
+    - title: B.Sc.
+      url: /admission-bsc-courses
+    - title: M.SC.
+      url: /admission-msc-courses
+    - title: PhD
+      url: /admission-phd-courses
+- title: Question Papers
+  url: /question-papers
+- title: People
+  items:
+    - title: Faculty
+      url: /faculty
+    - title: Research Scholars
+      url: people-research-scholars.html
+    - title: Alumni
+      url: /alumni
+    - title: Visitors
+      url: people-visitors.html
+- title: Research
+  url: /research
+- title: Notice
+  url: /notice

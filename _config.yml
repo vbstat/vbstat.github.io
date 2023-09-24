@@ -1,0 +1,24 @@
+title: Department of Statistics
+author:
+  name: Mrinal
+  email: mrinalvbu@gmail.com
+email: na
+description: >- 
+  Department of Statistics Visva-Bharati.
+baseurl: "" 
+url: "" 
+github_username:  jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:title
+
+collections:
+  pages:
+    output: true
+
+exclude:
+  - data.json
+  - README.md

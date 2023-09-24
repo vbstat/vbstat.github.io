@@ -1,0 +1,53 @@
+- year: 2022
+  alumni:
+    - name: John Doe
+      email: john.doe@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/johndoe/
+        - platform: Twitter
+          link: https://twitter.com/johndoe
+    - name: Jane Smith
+      email: jane.smith@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/janesmith/
+        - platform: Facebook
+          link: https://www.facebook.com/janesmith
+    - name: John Doe
+      email: john.doe@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/johndoe/
+        - platform: Twitter
+          link: https://twitter.com/johndoe
+    - name: Jane Smith
+      email: jane.smith@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/janesmith/
+        - platform: Facebook
+          link: https://www.facebook.com/janesmith
+
+- year: 2021
+  alumni:
+    - name: Bob Johnson
+      email: bob.johnson@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/bobjohnson/
+        - platform: Twitter
+          link: https://twitter.com/bobjohnson
+    - name: Alice Brown
+      email: alice.brown@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/alicebrown/
+        - platform: Instagram
+          link: https://www.instagram.com/alicebrown
