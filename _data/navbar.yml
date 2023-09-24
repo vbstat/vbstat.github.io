@@ -14,8 +14,6 @@
       url: /admission-msc-courses
     - title: PhD
       url: /admission-phd-courses
-- title: Question Papers
-  url: /question-papers
 - title: People
   items:
     - title: Faculty
@@ -26,6 +24,8 @@
       url: /alumni
     - title: Visitors
       url: people-visitors.html
+- title: Question Papers
+  url: /question-papers
 - title: Research
   url: /research
 - title: Notice
