@@ -1,53 +1,776 @@
+- year: 2023
+  alumni:
+    - name: ANEEK SARKAR
+      email: aneek.sarkar@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/aneeksarkar/
+        - platform: Twitter
+          link: https://twitter.com/aneeksarkar
+        - platform: Facebook
+          link: https://facebook.com/aneeksarkar
+    - name: AYAN CHOUDHURY
+      email: ayan.choudhury@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/ayanchoudhury/
+        - platform: Twitter
+          link: https://twitter.com/ayanchoudhury
+        - platform: Facebook
+          link: https://facebook.com/ayanchoudhury
+    - name: BIDISHA BHANDARI
+      email: bidisha.bhandari@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/bidishabhandari/
+        - platform: Twitter
+          link: https://twitter.com/bidishabhandari
+        - platform: Facebook
+          link: https://facebook.com/bidishabhandari
+    - name: KRISHNENDU DUTTA
+      email: krishnendu.dutta@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/krishnendudutta/
+        - platform: Twitter
+          link: https://twitter.com/krishnendudutta
+        - platform: Facebook
+          link: https://facebook.com/krishnendudutta
+    - name: MRINAL CHANDRA SARKAR
+      email: mrinal.sarkar@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/mrinalsarkar/
+        - platform: Twitter
+          link: https://twitter.com/mrinalsarkar
+        - platform: Facebook
+          link: https://facebook.com/mrinalsarkar
+    - name: PAPU MAHANTA
+      email: papu.mahanta@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/papumahanta/
+        - platform: Twitter
+          link: https://twitter.com/papumahanta
+        - platform: Facebook
+          link: https://facebook.com/papumahanta
+    - name: RAJDEEP NANDI
+      email: rajdeep.nandi@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/rajdeepnandi/
+        - platform: Twitter
+          link: https://twitter.com/rajdeepnandi
+        - platform: Facebook
+          link: https://facebook.com/rajdeepnandi
+    - name: ROHIT JANA
+      email: rohit.jana@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/rohitjana/
+        - platform: Twitter
+          link: https://twitter.com/rohitjana
+        - platform: Facebook
+          link: https://facebook.com/rohitjana
+    - name: SANDIP MISHRA
+      email: sandip.mishra@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sandipmishra/
+        - platform: Twitter
+          link: https://twitter.com/sandipmishra
+        - platform: Facebook
+          link: https://facebook.com/sandipmishra
+    - name: SAYANTAN SINHA
+      email: sayantan.sinha@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sayantansinha/
+        - platform: Twitter
+          link: https://twitter.com/sayantansinha
+        - platform: Facebook
+          link: https://facebook.com/sayantansinha
+    - name: SNEHANGSHU BHUIN
+      email: snehangshu.bhuin@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/snehangshubhuin/
+        - platform: Twitter
+          link: https://twitter.com/snehangshubhuin
+        - platform: Facebook
+          link: https://facebook.com/snehangshubhuin
+    - name: SOUMYA SARKAR
+      email: soumya.sarkar@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/soumyasarkar/
+        - platform: Twitter
+          link: https://twitter.com/soumyasarkar
+        - platform: Facebook
+          link: https://facebook.com/soumyasarkar
+    - name: SOURJYA SEN
+      email: sourjya.sen@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sourjyasen/
+        - platform: Twitter
+          link: https://twitter.com/sourjyasen
+        - platform: Facebook
+          link: https://facebook.com/sourjyasen
+    - name: SUBRATA SAHU
+      email: subrata.sahu@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/subratasahu/
+        - platform: Twitter
+          link: https://twitter.com/subratasahu
+        - platform: Facebook
+          link: https://facebook.com/subratasahu
+    - name: SUJASH KRISHNA BASAK
+      email: sujash.basak@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sujashbasak/
+        - platform: Twitter
+          link: https://twitter.com/sujashbasak
+        - platform: Facebook
+          link: https://facebook.com/sujashbasak
+    - name: SUKANTA MALICK
+      email: sukanta.malick@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sukantamalick/
+        - platform: Twitter
+          link: https://twitter.com/sukantamalick
+        - platform: Facebook
+          link: https://facebook.com/sukantamalick
+    - name: TAPAN BARMAN
+      email: tapan.barman@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/tapanbarman/
+        - platform: Twitter
+          link: https://twitter.com/tapanbarman
+        - platform: Facebook
+          link: https://facebook.com/tapanbarman
+    - name: ABHRA ROY
+      email: abhra.roy@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/abharoy/
+        - platform: Twitter
+          link: https://twitter.com/abharoy
+        - platform: Facebook
+          link: https://facebook.com/abharoy
+    - name: SUMIT KUMAR
+      email: sumit.kumar@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sumitkumar/
+        - platform: Twitter
+          link: https://twitter.com/sumitkumar
+        - platform: Facebook
+          link: https://facebook.com/sumitkumar
+
+
+
+
+
+
+
 - year: 2022
   alumni:
-    - name: John Doe
-      email: john.doe@example.com
+    - name: ANANYA BAKSHI
+      email: ananya.bakshi@example.com
       image: pata.jpg
       social:
         - platform: LinkedIn
-          link: https://www.linkedin.com/in/johndoe/
+          link: https://www.linkedin.com/in/ananyabakshi/
         - platform: Twitter
-          link: https://twitter.com/johndoe
-    - name: Jane Smith
-      email: jane.smith@example.com
-      image: pata.jpg
-      social:
-        - platform: LinkedIn
-          link: https://www.linkedin.com/in/janesmith/
+          link: https://twitter.com/ananyabakshi
         - platform: Facebook
-          link: https://www.facebook.com/janesmith
-    - name: John Doe
-      email: john.doe@example.com
+          link: https://facebook.com/ananyabakshi
+    - name: ANINDITA KUNDU
+      email: anindita.kundu@example.com
       image: pata.jpg
       social:
         - platform: LinkedIn
-          link: https://www.linkedin.com/in/johndoe/
+          link: https://www.linkedin.com/in/aninditakundu/
         - platform: Twitter
-          link: https://twitter.com/johndoe
-    - name: Jane Smith
-      email: jane.smith@example.com
+          link: https://twitter.com/aninditakundu
+        - platform: Facebook
+          link: https://facebook.com/aninditakundu
+    - name: ANJAN PRAMANIK
+      email: anjan.pramanik@example.com
       image: pata.jpg
       social:
         - platform: LinkedIn
-          link: https://www.linkedin.com/in/janesmith/
+          link: https://www.linkedin.com/in/anjanpramanik/
+        - platform: Twitter
+          link: https://twitter.com/anjanpramanik
         - platform: Facebook
-          link: https://www.facebook.com/janesmith
+          link: https://facebook.com/anjanpramanik
+    - name: ARUNIMA PAL
+      email: arunima.pal@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/arunimapal/
+        - platform: Twitter
+          link: https://twitter.com/arunimapal
+        - platform: Facebook
+          link: https://facebook.com/arunimapal
+    - name: DEBJANI DAS
+      email: debjani.das@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/debjanidas/
+        - platform: Twitter
+          link: https://twitter.com/debjanidas
+        - platform: Facebook
+          link: https://facebook.com/debjanidas
+    - name: KANKANA DAS
+      email: kankana.das@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/kankanadas/
+        - platform: Twitter
+          link: https://twitter.com/kankanadas
+        - platform: Facebook
+          link: https://facebook.com/kankanadas
+    - name: PABITRA MONDAL
+      email: pabitra.mondal@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/pabitramondal/
+        - platform: Twitter
+          link: https://twitter.com/pabitramondal
+        - platform: Facebook
+          link: https://facebook.com/pabitramondal
+    - name: PRIYA MONDAL
+      email: priya.mondal@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/priyamondal/
+        - platform: Twitter
+          link: https://twitter.com/priyamondal
+        - platform: Facebook
+          link: https://facebook.com/priyamondal
+    - name: SARNALINA DATTA
+      email: sarnalina.datta@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sarnalinadatta/
+        - platform: Twitter
+          link: https://twitter.com/sarnalinadatta
+        - platform: Facebook
+          link: https://facebook.com/sarnalinadatta
+    - name: SHYAMAL KUMAR DAS
+      email: shyamal.das@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/shyamaldas/
+        - platform: Twitter
+          link: https://twitter.com/shyamaldas
+        - platform: Facebook
+          link: https://facebook.com/shyamaldas
+    - name: SONAM
+      email: sonam@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sonam/
+        - platform: Twitter
+          link: https://twitter.com/sonam
+        - platform: Facebook
+          link: https://facebook.com/sonam
+    - name: TITIR MANDAL
+      email: titir.mandal@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/titirmandal/
+        - platform: Twitter
+          link: https://twitter.com/titirmandal
+        - platform: Facebook
+          link: https://facebook.com/titirmandal
+    - name: YASH PRASAD
+      email: yash.prasad@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/yashprasad/
+        - platform: Twitter
+          link: https://twitter.com/yashprasad
+        - platform: Facebook
+          link: https://facebook.com/yashprasad
+
+
 
 - year: 2021
   alumni:
-    - name: Bob Johnson
-      email: bob.johnson@example.com
+    - name: ADRIKA MAJI
+      email: adrika.maji@example.com
       image: pata.jpg
       social:
         - platform: LinkedIn
-          link: https://www.linkedin.com/in/bobjohnson/
+          link: https://www.linkedin.com/in/adrikamaji/
         - platform: Twitter
-          link: https://twitter.com/bobjohnson
-    - name: Alice Brown
-      email: alice.brown@example.com
+          link: https://twitter.com/adrikamaji
+        - platform: Facebook
+          link: https://facebook.com/adrikamaji
+    - name: AKASH GUCHHAIT
+      email: akash.guchhait@example.com
       image: pata.jpg
       social:
         - platform: LinkedIn
-          link: https://www.linkedin.com/in/alicebrown/
-        - platform: Instagram
-          link: https://www.instagram.com/alicebrown
+          link: https://www.linkedin.com/in/akashguchhait/
+        - platform: Twitter
+          link: https://twitter.com/akashguchhait
+        - platform: Facebook
+          link: https://facebook.com/akashguchhait
+    - name: ANINDITA SARKER
+      email: anindita.sarker@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/aninditasarker/
+        - platform: Twitter
+          link: https://twitter.com/aninditasarker
+        - platform: Facebook
+          link: https://facebook.com/aninditasarker
+    - name: ANWESHA DE
+      email: anwesha.de@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/anweshade/
+        - platform: Twitter
+          link: https://twitter.com/anweshade
+        - platform: Facebook
+          link: https://facebook.com/anweshade
+    - name: ARANI PAUL
+      email: arani.paul@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/aranipaul/
+        - platform: Twitter
+          link: https://twitter.com/aranipaul
+        - platform: Facebook
+          link: https://facebook.com/aranipaul
+    - name: KOYEL MUKHERJEE
+      email: koyel.mukherjee@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/koyelmukherjee/
+        - platform: Twitter
+          link: https://twitter.com/koyelmukherjee
+        - platform: Facebook
+          link: https://facebook.com/koyelmukherjee
+    - name: KRISHNANJAN SAHA
+      email: krishnanjan.saha@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/krishnanjansaha/
+        - platform: Twitter
+          link: https://twitter.com/krishnanjansaha
+        - platform: Facebook
+          link: https://facebook.com/krishnanjansaha
+    - name: MOUSUMI DUTTA
+      email: mousumi.dutta@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/mousumidutta/
+        - platform: Twitter
+          link: https://twitter.com/mousumidutta
+        - platform: Facebook
+          link: https://facebook.com/mousumidutta
+    - name: SAPRATIVA BHOWAL
+      email: saprativa.bhowal@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/saprativabhowal/
+        - platform: Twitter
+          link: https://twitter.com/saprativabhowal
+        - platform: Facebook
+          link: https://facebook.com/saprativabhowal
+    - name: SHUBHADEEP SAHU
+      email: shubhadeep.sahu@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/shubhadeepsahu/
+        - platform: Twitter
+          link: https://twitter.com/shubhadeepsahu
+        - platform: Facebook
+          link: https://facebook.com/shubhadeepsahu
+    - name: SHYAMSREE DAS
+      email: shyamsree.das@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/shyamsreedas/
+        - platform: Twitter
+          link: https://twitter.com/shyamsreedas
+        - platform: Facebook
+          link: https://facebook.com/shyamsreedas
+    - name: SUMAN CHANDRA BHALLA
+      email: suman.bhalla@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sumanchandrabhalla/
+        - platform: Twitter
+          link: https://twitter.com/sumanchandrabhalla
+        - platform: Facebook
+          link: https://facebook.com/sumanchandrabhalla
+    - name: SUNAYANI MONDAL
+      email: sunayani.mondal@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sunayanimondal/
+        - platform: Twitter
+          link: https://twitter.com/sunayanimondal
+        - platform: Facebook
+          link: https://facebook.com/sunayanimondal
+    - name: UJJWAL GHARUI
+      email: ujjwal.gharui@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/ujjwalgharui/
+        - platform: Twitter
+          link: https://twitter.com/ujjwalgharui
+        - platform: Facebook
+          link: https://facebook.com/ujjwalgharui
+         
+
+
+- year: 2020
+  alumni:
+    - name: ADRIJA BANERJEE
+      email: adrija.banerjee@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/adrijabanerjee/
+        - platform: Twitter
+          link: https://twitter.com/adrijabanerjee
+        - platform: Facebook
+          link: https://facebook.com/adrijabanerjee
+    - name: ATISH KUMAR GARAI
+      email: atish.garai@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/atishgarai/
+        - platform: Twitter
+          link: https://twitter.com/atishgarai
+        - platform: Facebook
+          link: https://facebook.com/atishgarai
+    - name: BILTU MAJI
+      email: biltu.maji@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/biltumaji/
+        - platform: Twitter
+          link: https://twitter.com/biltumaji
+        - platform: Facebook
+          link: https://facebook.com/biltumaji
+    - name: DEBDUT SAHA
+      email: debdut.saha@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/debdutsaha/
+        - platform: Twitter
+          link: https://twitter.com/debdutsaha
+        - platform: Facebook
+          link: https://facebook.com/debdutsaha
+    - name: PANKAJ CHOWDHURY
+      email: pankaj.chowdhury@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/pankajchowdhury/
+        - platform: Twitter
+          link: https://twitter.com/pankajchowdhury
+        - platform: Facebook
+          link: https://facebook.com/pankajchowdhury
+    - name: RAKHI NAG
+      email: rakhi.nag@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/rakhinag/
+        - platform: Twitter
+          link: https://twitter.com/rakhinag
+        - platform: Facebook
+          link: https://facebook.com/rakhinag
+    - name: SAYANTI MANDAL
+      email: sayanti.mandal@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sayantimandal/
+        - platform: Twitter
+          link: https://twitter.com/sayantimandal
+        - platform: Facebook
+          link: https://facebook.com/sayantimandal
+    - name: SOUMIK GHOSH
+      email: soumik.ghosh@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/soumikghosh/
+        - platform: Twitter
+          link: https://twitter.com/soumikghosh
+        - platform: Facebook
+          link: https://facebook.com/soumikghosh
+    - name: SRINJOY MONDAL
+      email: srinjoy.mondal@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/srinjoymondal/
+        - platform: Twitter
+          link: https://twitter.com/srinjoymondal
+        - platform: Facebook
+          link: https://facebook.com/srinjoymondal
+    - name: SUBHASISH BHOWMICK
+      email: subhasish.bhowmick@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/subhasishbhowmick/
+        - platform: Twitter
+          link: https://twitter.com/subhasishbhowmick
+        - platform: Facebook
+          link: https://facebook.com/subhasishbhowmick
+    - name: SUMEGH SEN
+      email: sumegh.sen@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sumeghsen/
+        - platform: Twitter
+          link: https://twitter.com/sumeghsen
+        - platform: Facebook
+          link: https://facebook.com/sumeghsen
+    - name: SUVAM BIT
+      email: suvam.bit@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/suvambit/
+        - platform: Twitter
+          link: https://twitter.com/suvambit
+        - platform: Facebook
+          link: https://facebook.com/suvambit
+    - name: SWASTIKA ROOJ
+      email: swastika.rooj@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/swastikarooj/
+        - platform: Twitter
+          link: https://twitter.com/swastikarooj
+        - platform: Facebook
+          link: https://facebook.com/swastikarooj
+    - name: WRITWIK PATRA
+      email: writwik.patra@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/writwikpatra/
+        - platform: Twitter
+          link: https://twitter.com/writwikpatra
+        - platform: Facebook
+          link: https://facebook.com/writwikpatra
+        
+
+
+- year: 2019
+  alumni:
+    - name: ADITI SADHU
+      email: aditi.sadhu@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/aditisadhu/
+        - platform: Twitter
+          link: https://twitter.com/aditisadhu
+        - platform: Facebook
+          link: https://facebook.com/aditisadhu
+    - name: AMIRUDRA MONDAL
+      email: amirudra.mondal@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/amirudramondal/
+        - platform: Twitter
+          link: https://twitter.com/amirudramondal
+        - platform: Facebook
+          link: https://facebook.com/amirudramondal
+    - name: BEAUTY MAJI
+      email: beauty.maji@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/beautymaji/
+        - platform: Twitter
+          link: https://twitter.com/beautymaji
+        - platform: Facebook
+          link: https://facebook.com/beautymaji
+    - name: BHASWATI BANERJEE
+      email: bhaswati.banerjee@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/bhaswatibanerjee/
+        - platform: Twitter
+          link: https://twitter.com/bhaswatibanerjee
+        - platform: Facebook
+          link: https://facebook.com/bhaswatibanerjee
+    - name: GOURAB GHOSH
+      email: gourab.ghosh@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/gourabghosh/
+        - platform: Twitter
+          link: https://twitter.com/gourabghosh
+        - platform: Facebook
+          link: https://facebook.com/gourabghosh
+    - name: KOUSHIK ROY PRAMANIK
+      email: koushik.pramanik@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/koushikpramanik/
+        - platform: Twitter
+          link: https://twitter.com/koushikpramanik
+        - platform: Facebook
+          link: https://facebook.com/koushikpramanik
+    - name: MIKMA BHUTIA
+      email: mikma.bhutia@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/mikmabhutia/
+        - platform: Twitter
+          link: https://twitter.com/mikmabhutia
+        - platform: Facebook
+          link: https://facebook.com/mikmabhutia
+    - name: MOUSUMI PAUL
+      email: mousumi.paul@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/mousumipaul/
+        - platform: Twitter
+          link: https://twitter.com/mousumipaul
+        - platform: Facebook
+          link: https://facebook.com/mousumipaul
+    - name: REJINA SABNAM
+      email: rejina.sabnam@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/rejinasabnam/
+        - platform: Twitter
+          link: https://twitter.com/rejinasabnam
+        - platform: Facebook
+          link: https://facebook.com/rejinasabnam
+    - name: SANDIPAN DAS
+      email: sandipan.das@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sandipandas/
+        - platform: Twitter
+          link: https://twitter.com/sandipandas
+        - platform: Facebook
+          link: https://facebook.com/sandipandas
+    - name: SK HAMJANUL HAQUE
+      email: sk.hamjanul.haque@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/skhamjanulhaque/
+        - platform: Twitter
+          link: https://twitter.com/skhamjanulhaque
+        - platform: Facebook
+          link: https://facebook.com/skhamjanulhaque
+    - name: SK ROMJAN MIRAJ
+      email: sk.romjan.miraj@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/skromjanmiraj/
+        - platform: Twitter
+          link: https://twitter.com/skromjanmiraj
+        - platform: Facebook
+          link: https://facebook.com/skromjanmiraj
+    - name: SOUMI DAN
+      email: soumi.dan@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/soumidan/
+        - platform: Twitter
+          link: https://twitter.com/soumidan
+        - platform: Facebook
+          link: https://facebook.com/soumidan
+    - name: TAZKIR AHAMMED
+      email: tazkir.ahammed@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/tazkirahammed/
+        - platform: Twitter
+          link: https://twitter.com/tazkirahammed
+        - platform: Facebook
+          link: https://facebook.com/tazkirahammed
+    - name: DWAIPAYAN MANNA
+      email: dwaipayan.manna@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/dwaipayanmanna/
+        - platform: Twitter
+          link: https://twitter.com/dwaipayanmanna
+        - platform: Facebook
+          link: https://facebook.com/dwaipayanmanna
