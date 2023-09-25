@@ -2,6 +2,14 @@
 Handouts and Notes BSc Statistics VisvaBharati
 
 ## Installation
+
+Fork
+
+```
+https://github.com/mrinalcs/vbstat/fork
+```
+
+Run locally
 ```
 git clone https://github.com/mrinalcs/vbstat.git
 cd vbstat
@@ -9,6 +17,13 @@ code .
 bundle
 bundle exec jekyll serve
 ```
+Commit to github
+```
+git add .
+git commit -m "first commit"
+git push
+```
+Dont forget to pull requests! :)
 
 <details>
   <summary><strong>Project Directory Structure</strong></summary>

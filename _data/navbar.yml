@@ -19,11 +19,11 @@
     - title: Faculty
       url: /faculty
     - title: Research Scholars
-      url: people-research-scholars.html
+      url: /research-scholars
     - title: Alumni
       url: /alumni
     - title: Visitors
-      url: people-visitors.html
+      url: /visitors
 - title: Question Papers
   url: /question-papers
 - title: Research

@@ -378,7 +378,7 @@ hr {
 blockquote {
   padding: 25px;
   margin: 20px 0;
-  background: #f9f9f9;
+  /* background: #f9f9f9; */
   position: relative;
   /* border-left: 3px solid #ffb600; */
   padding-left: 40px;
@@ -421,7 +421,7 @@ blockquote p {
   line-height: 22px;
   position: relative;
   z-index: 1;
-  font-style: italic;
+  /* font-style: italic; */
   margin-bottom: 0;
 }
 
