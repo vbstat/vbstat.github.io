@@ -2,12 +2,13 @@ title: Department of Statistics
 author:
   name: Mrinal
   email: mrinalvbu@gmail.com
+  github: mrinalcs
 email: na
 description: >- 
   Department of Statistics Visva-Bharati.
 baseurl: "" 
 url: "" 
-github_username:  jekyll
+github_username:  vbstat
 
 plugins:
   - jekyll-feed
