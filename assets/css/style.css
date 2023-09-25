@@ -481,7 +481,7 @@ ul.list-check li:before {
 }
 
 .cursive-font {
-  font-family: 'Your Cursive Font', cursive;
+  font-family: cursive;
 }
 
 
@@ -942,13 +942,13 @@ ul.navbar-nav > li > a i {
 
 @media (max-width: 991px) {
   ul.navbar-nav > li > a i {
-    float: right;
-    background: #222;
+    /* float: right;
+    background: #222; */
     padding: 6px 10px;
     margin-top: 7px;
   }
   .header-two ul.navbar-nav > li > a i {
-    color: #fff;
+    /* color: #fff; */
   }
   .header-two ul.navbar-nav > li.active > a i,
 .header-two ul.navbar-nav > li > a.active i {
