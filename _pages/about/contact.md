@@ -2,7 +2,7 @@
 layout: page
 permalink: /contact-address
 title: Contact
-description: Research papers
+description: Contact adresses of  Statistcs department Visva-Bharati
 ---
 
 
