@@ -26,6 +26,8 @@
       url: /visitors
 - title: Question Papers
   url: /question-papers
+- title: Notes
+  url: /notes
 - title: Research
   url: /research
 - title: Notice
