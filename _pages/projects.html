@@ -1,0 +1,23 @@
+---
+layout: page
+permalink: /projects
+title: Projects
+description: Projects
+---
+
+<div class="  mt-5">
+    <h2 class="column-title mrt-0">{{ page.title }}</h2>
+  
+  {% for project in site.data.projects %}
+  {% if project.year == 2022 %}
+  <h2>{{ project.year }}</h2>
+  <ul class="list-group">
+    {% for item in project.projects %}
+    <li class="list-group-item">
+      <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% endfor %}
+</div>
