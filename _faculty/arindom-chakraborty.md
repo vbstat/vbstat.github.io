@@ -1,11 +1,12 @@
 ---
 title: Arindom Chakraborty
-date: 2018-12-20T13:45:06+10:00
+date: 2022-12-20T13:45:06+10:00
 image: "/assets/images/faculty/arindom-chakraborty.jpg"
 designation: "Assistant Professor"
 linkedin: "https://in.linkedin.com/in/arindomc"
 email: arindom.chakraborty@visva-bharati.ac.in
 weight: 4
+description: "Arindom Chakraborty: Currently an Assistant Professor at Visva-Bharati University, he holds a Ph.D. from the University of Calcutta. With extensive teaching experience and a strong research background in statistics and genetics, Arindom leads projects in malaria pathogenesis and statistical analysis. Explore his academic journey and contributions."
 ---
 
 

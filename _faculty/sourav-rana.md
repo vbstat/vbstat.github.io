@@ -1,6 +1,6 @@
 ---
 title: Sourav Rana
-date: 2018-12-20T13:45:06+10:00
+date: 2021-12-20T13:45:06+10:00
 image: "/assets/images/faculty/sourav-rana.jpg"
 designation: "Assistant Professor (Stage-II)"
 linkedin: "https://www.linkedin.com/"
@@ -8,6 +8,7 @@ g_scholar: "https://scholar.google.co.in/citations?user=FfOxug8AAAAJ&hl=en"
 email: souravmath07@gmail.com
 mobile: "9831695750"
 weight: 2
+description: "Dr. SR: An Assistant Professor (Stage-II) since November 2013, SR's academic journey includes a B.Sc. in Mathematics (Hons.) from the University of Calcutta (2006) and an M.Sc. in Applied Statistics and Informatics from the Indian Institute of Technology Bombay (2009). SR's research areas encompass Statistical Ecology, Mathematical Biology, Population Dynamics, and more."
 ---
 
 

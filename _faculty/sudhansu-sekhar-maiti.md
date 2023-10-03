@@ -1,5 +1,7 @@
 ---
 title: Sudhansu Sekhar Maiti
+description: >-
+  Dr. S. S. Maiti: currently Hod of Statistics dept. Visva-Bvharati Experienced statistician with a Ph.D. from Calcutta University. A prolific author with numerous publications in the field of statistics and reliability. Active member of prestigious organizations. Expertise in teaching and committee participation. Joining since 2013
 date: 2022-11-19T10:47:58+10:00
 image: "/assets/images/faculty/sudhansu-sekhar-maiti.png"
 designation: Professor & Head

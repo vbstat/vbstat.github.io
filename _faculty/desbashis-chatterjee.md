@@ -1,6 +1,6 @@
 ---
 title: Debashis Chatterjee
-date: 2018-12-20T13:45:06+10:00
+date: 2022-12-20T13:45:06+10:00
 image: "/assets/images/faculty/desbashis-chatterjee.jpg"
 designation: "Assistant Professor"
 linkedin: "https://in.linkedin.com/in/debashis-chatterjee-169227196"
@@ -9,6 +9,7 @@ website: "http://statdebashis.wordpress.com/"
 email: desbashis.chatterjee@isical.ac.in
 github: "https://github.com/debashischatterjee111/"
 weight: 6
+description: "Dr. D.C, an Assistant Professor known for his expertise, holds a Ph.D. from the Indian Statistical Institute (2022), along with an M.Stat (2015) and B.Stat (Honours) (2013) from the same institution. His research contributions span various domains, including mathematical physics, Bayesian statistics, and geometric morphometrics. Explore his work and connect with him on LinkedIn and GitHub"
 ---
 
  

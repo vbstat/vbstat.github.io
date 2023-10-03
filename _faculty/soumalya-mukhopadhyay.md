@@ -1,12 +1,13 @@
 ---
 title: Soumalya Mukhopadhyay
-date: 2018-12-20T13:45:06+10:00
+date: 2022-12-20T13:45:06+10:00
 image: "/assets/images/faculty/soumalya-mukhopadhyay.png"
 designation: "Assistant Professor"
 linkedin: "https://in.linkedin.com/in/soumalya-mukhopadhyay-b3a82673"
 g_scholar: "https://scholar.google.com/citations?user=S_Z7rjQAAAAJ&hl=en"
 email: smkp78e@gmail.com
 weight: 1
+description: "Dr. Soumalya Mukhopadhyay: An Assistant Professor at Visva-Bharati University since December 2012, he brings a strong academic foundation with a B.Sc. in Statistics (Hons.) from the University of Calcutta and an M.Stat in Applied Statistics and Data Analysis from the Indian Statistical Institute. Soumalya's research interests span modeling growth rates, growth curves, and epidemiology. Discover his valuable contributions, including an optimal cost-effectiveness study in epidemiology."
 ---
 
  
