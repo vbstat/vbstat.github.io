@@ -723,8 +723,7 @@ ul.navbar-nav>li>ul>li>button {
  text-rendering: optimizeLegibility;
  font-weight: 700 !important;
  text-transform: uppercase;
- letter-spacing: -.2px;
- font-size: 12px;
+ font-size: 14px;
  margin: 0;
  line-height: 40px;
  color: #333333;
@@ -798,7 +797,7 @@ ul.navbar-nav>li>ul>li>button i {
 
 .dropdown-menu>li>ul>li>a {
  
- font-size: 12px;
+ font-size: 14px;
  
 }
 /* sub menu end */
@@ -958,7 +957,9 @@ table {
 
 
 
-
+i.fa.fa-angle-down {
+  font-size: 20px;
+}
 
 
 
