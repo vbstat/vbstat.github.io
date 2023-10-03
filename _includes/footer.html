@@ -1,31 +1,28 @@
- 
  <!-- Footer -->
- <footer id="footer" class="footer bg-overlay">
-    <div class="footer-main">
+ <footer id="footer">
+    <div class="footer">
         <div class="container">
           <div class="row justify-content-between">
             <div class="col-lg-4 col-md-6 footer-widget footer-about">
-               
-              <img loading="lazy" width="80px" class="footer-logo" src="/assets/images/pata.png" alt="Visva-Bharati Website pata">
-              <p>Department offers undergraduate Statistics programs with majors and minors, along with a M.Sc. program and a Ph.D. program in Statistics.</p>
+              <img loading="lazy" width="80px" class="footer-logo" src="{{ site.url }}{{ site.data.footer.Logo.path }}" alt="{{ site.data.footer.Logo.alt }}">
+              <p>{{site.data.footer.description}}</p>
 
             </div><!-- Col end -->
   
             <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
               <h3 class="widget-title">Working Hours</h3>
               <div class="working-hours">
-                Weekly, every day excluding Saturday and Sunday and holidays in Academic calendar. Break 1.30pm to 2.30pm Contact us if you have an emergency.
-                <br><br> Monday - Friday: <span class="text-right">9:30 - 18:30 </span>
+                {{site.data.footer.working_time}}
+                 
               </div>
             </div><!-- Col end -->
   
             <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
-              <h3 class="widget-title">Links</h3>
+              <h3 class="widget-title">External Links</h3>
               <ul class="list-arrow">
-                <li><a href="https://vbu.ucanapply.com/universitysystem/student/">Examination Section</a></li>
-                <li><a href="https://www.vbadmission.in/">Admission</a></li>
-                <li><a href="https://visvabharati.ac.in/list_all_notice.html/type/notice">Notice</a></li>
-              
+                {% for item in site.data.footer.links %}
+                <li><a href="{{ item.link }}" target="_blank"> {{ item.label }} </a></li>
+                 {% endfor %}
               </ul>
             </div><!-- Col end -->
           </div><!-- Row end -->
@@ -33,21 +30,3 @@
       </div><!-- Footer main end -->
   
    </footer>
-
-
-
-  <!-- initialize jQuery Library -->
-  <script src="/assets/plugins/jQuery/jquery.min.js"></script>
-  <!-- Bootstrap jQuery -->
-  <script src="/assets/plugins/bootstrap/bootstrap.min.js" defer></script>
-  <!-- Slick Carousel -->
-  <script src="/assets/plugins/slick/slick.min.js"></script>
-  <script src="/assets/plugins/slick/slick-animation.min.js"></script>
-  <!-- Color box -->
-  <script src="/assets/plugins/colorbox/jquery.colorbox.js"></script>
-  <!-- shuffle -->
-  <script src="/assets/plugins/shuffle/shuffle.min.js" defer></script>
-
-    <!-- Template custom -->
-    <script src="/assets/js/script.js"></script>
-

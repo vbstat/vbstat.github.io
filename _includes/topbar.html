@@ -1,22 +1,27 @@
+{% if site.data.topbar.show %}
 <div id="top-bar" class="top-bar">
     <div class="container">
       <div class="row">
-          <div class="col-lg-8 col-md-8">
-            <ul class="top-info text-center text-md-left">
-                <li><i class="fas fa-graduation-cap"></i> <p class="info-text">Visva-Bharti,Siksha-Bhavana,Santiniketan</p>
+          <div class="col-lg-6 col-md-8   text-center text-md-start">
+            <ul class="top-info">
+                <li><i class="{{ site.data.topbar.heading.icon }}"></i> <p class="info-text">{{ site.data.topbar.heading.text }}</p>
                 </li>
             </ul>
           </div>
           <!--/ Top info end -->
 
-          <div class="col-lg-4 col-md-4 top-social text-center text-md-right">
+          <div class="col-lg-6 col-md-4 top-social text-center text-md-end">
+           
             <ul class="list-unstyled">
+              {% for item in site.data.topbar.links.social %}
                 <li>
-                  <a title="Linkdin" href="https://www.linkedin.com/in/statistics-department-vbu-7ab377266?originalSubdomain=in"><span class="social-icon"><i class="fab fa-linkedin"></i></span></a>
+                  <a title="{{ item.title }}" href="{{ item.link }}">
+                    <span class="social-icon"><i class="{{ item.icon }}"></i></span> <span class="d-lg-inline d-md-none">{{ item.title }}</span>
+                  </a>
                 </li>
-                <li><a href="https://github.com/vbstat/vbstat.github.io/graphs/contributors"><i class="fa fa-users"></i> People</a></li>
-                <li><a href="https://github.com/mrinalcs/vbstat/edit/main/index.html"><i class="fa fa-edit"></i> Write</a></li>
+              {% endfor %}
             </ul>
+              
           </div>
           <!--/ Top social end -->
       </div>
@@ -24,3 +29,4 @@
     </div>
     <!--/ Container end -->
 </div>
+{% endif %}

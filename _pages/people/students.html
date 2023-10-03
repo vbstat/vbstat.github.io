@@ -1,0 +1,35 @@
+---
+layout: people
+permalink: /students
+title: Students
+description: alumni
+---
+
+   
+
+<div class="container">
+<h1 class="mt-5">Current Students</h1>
+<hr>
+  
+  <div class="row">
+    {% for program in site.data.students %}
+      <div class="col-md-6">
+        <h2>{{ program.program }}</h2>
+        {% for year in program.years %}
+          <h3>{{ year.year }}</h3>
+          <ul class="list-group mt-3">
+            {% for student in year.students %}
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h5>{{ student.name }}</h5>
+                  <span class="badge badge-primary">{{ program.program }}</span>
+                </div>
+                <p>Email: {{ student.email }}</p>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+</div>

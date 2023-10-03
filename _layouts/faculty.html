@@ -1,0 +1,85 @@
+---
+layout: base
+---
+
+
+<section>
+    <div class="container">
+      <div class="row">
+        {%- include sidebar.html -%}
+  
+
+        <div class="col-xl-8 col-lg-8">
+            <div class="content-inner-page">
+
+<img class="img-thumbnail" src="{{page.image}}" width="200px" alt=""> 
+<h1 class="title pt-2">{{page.title}}</h1>
+
+<br>
+Degignation: <strong> {{ page.designation }} </strong> <br>
+Email: <strong>{{ page.email }}</strong> <br>
+
+
+
+
+
+
+
+
+
+
+<div class="social pt-4 pb-4">
+
+{% if page.linkedin %}
+<a target="_blank" href="{{ page.linkedin }}" rel="noreferrer"> <i class="fab fa-linkedin"></i> </a>
+{% endif %}
+
+{% if page.g_scholar %}
+<a target="_blank" href="{{ page.g_scholar }}" rel="noreferrer">  <i class="fas fa-graduation-cap"></i> </a>
+{% endif %}
+
+{% if page.website %}
+<a target="_blank" href="{{ page.website }}" rel="noreferrer">  <i class="fas fa-globe"></i> </a>
+{% endif %}
+
+{% if page.mobile %}
+<a target="_blank" href="tel:{{ page.mobile }}" rel="noreferrer">  <i class='fas fa-phone-alt'></i> </a>
+{% endif %}
+
+
+{% if page.github %}
+<a target="_blank" href="{{ page.github }}" rel="noreferrer">  <i class='fab fa-github'></i> </a>
+{% endif %}
+
+
+{% if page.twitter %}
+<a target="_blank" href="{{ page.twitter }}" rel="noreferrer"> <i class="fab fa-twitter"></i> </a>
+{% endif %}
+
+{% if page.facebook %}
+<a target="_blank" href="{{ page.facebook }}" rel="noreferrer"> <i class="fab fa-facebook"></i> </a>
+{% endif %}
+
+{% if page.email %}
+<a href="mailto:{{ page.email }}"> <i class="fas fa-envelope"></i> </a>
+{% endif %}
+
+</div>
+
+{{ content }}
+ 
+
+
+
+
+       
+
+    </div><!-- Content inner end -->
+ </div><!-- Content Col end -->
+
+
+
+
+</div><!-- Main row end -->
+</div><!-- Conatiner end -->
+</section>

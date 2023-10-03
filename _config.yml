@@ -1,25 +1,47 @@
-title: Department of Statistics
+url: "https://vbstat.github.io"
+title: VBSTAT
 author:
-  name: Mrinal
-  email: mrinalvbu@gmail.com
+  name: Mrinal Chandra Sarkar
   github: mrinalcs
-email: na
+  email: hi@mrinal.tk
+
 description: >- 
-  Department of Statistics Visva-Bharati.
-baseurl: "" 
-url: "" 
-github_username:  vbstat
+  Department of Statistics
+
+Logo:
+  path: /assets/images/logo.png
+  alt: Visva-Bharati Logo
+  title: Department of Statistics
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-seo-tag
+
+feed:
+  path: feed.xml
+  collections: ['pages', 'faculty']
 
 permalink: /:title
 
 collections:
   pages:
     output: true
+  faculty:
+    output: true
+    permalink: /:title
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "faculty"
+    values:
+      layout: "faculty"
+
+sass:
+  sass_dir: _sass
+  style: :compressed # Set to :expanded for development, :compressed for production
 
 exclude:
-  - data.json
   - README.md

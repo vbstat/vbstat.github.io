@@ -3,117 +3,108 @@ layout: page
 permalink: /question-papers
 title: Question papers
 description: Previous years Question papers
+date: 2023-07-29T12:00:00Z
 ---
 
 
-<h2 class="column-title mrt-0">Quetion paper</h2>
-  
-<div class="row">
-  <div class="col-md-12">
-    <p>ThIS Archive is a comprehensive collection of past examination papers organized by year and semester.</p>
 
-       
+ <p>This Archive is a comprehensive collection of past examination papers organized by year and semester.</p>      
      
-      <div class="row">
-        <div class="col-md-6">
-          <input type="text" id="filter-input" class="form-control" placeholder="Filter by Year, Semester, or Files">
-        </div>
-        <div class="col-md-3">
-          <select id="year-dropdown" class="form-control">
-            <option value="">Filter by Year</option>
-            {% assign years = "" | split: "" %}
-            {% for file in site.static_files %}
-              {% if file.path contains '/question-papers/' %}
-                {% assign parts = file.path | split: '/' %}
-                {% if parts.size == 5 %}
-                  {% assign year = parts[2] %}
-                  {% unless years contains year %}
-                    <option value="{{ year }}">{{ year }}</option>
-                    {% capture years %}{{ years }}{{ year }}{% endcapture %}
-                  {% endunless %}
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-          </select>
-        </div>
-        <div class="col-md-3">
-          <select id="semester-dropdown" class="form-control">
-            <option value="">Filter by Semester</option>
-            {% assign semesters = "" | split: "" %}
-            {% for file in site.static_files %}
-              {% if file.path contains '/question-papers/' %}
-                {% assign parts = file.path | split: '/' %}
-                {% if parts.size == 5 %}
-                  {% assign semester = parts[3] %}
-                  {% unless semesters contains semester %}
-                    <option value="{{ semester }}">{{ semester }}</option>
-                    {% capture semesters %}{{ semesters }}{{ semester }}{% endcapture %}
-                  {% endunless %}
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-          </select>
-        </div>
-      </div>
-      <br>
-      <table class="table table-bordered">
-        <thead>
+<div class="row">
+  <div class="col-md-6">
+    <input type="text" id="filter-input" class="form-control" placeholder="Filter by Year, Semester, or Files">
+  </div>
+  <div class="col-md-3">
+    <select id="year-dropdown" class="form-control">
+      <option value="">Filter by Year</option>
+      {% assign years = "" | split: "" %}
+      {% for file in site.static_files %}
+        {% if file.path contains '/question-papers/' %}
+          {% assign parts = file.path | split: '/' %}
+          {% if parts.size == 5 %}
+            {% assign year = parts[2] %}
+            {% unless years contains year %}
+              <option value="{{ year }}">{{ year }}</option>
+              {% capture years %}{{ years }}{{ year }}{% endcapture %}
+            {% endunless %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </select>
+  </div>
+  <div class="col-md-3">
+    <select id="semester-dropdown" class="form-control">
+      <option value="">Filter by Semester</option>
+      {% assign semesters = "" | split: "" %}
+      {% for file in site.static_files %}
+        {% if file.path contains '/question-papers/' %}
+          {% assign parts = file.path | split: '/' %}
+          {% if parts.size == 5 %}
+            {% assign semester = parts[3] %}
+            {% unless semesters contains semester %}
+              <option value="{{ semester }}">{{ semester }}</option>
+              {% capture semesters %}{{ semesters }}{{ semester }}{% endcapture %}
+            {% endunless %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </select>
+  </div>
+</div>
+<br>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Semester</th>
+      <th>Files</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign folder_path = '/question-papers/' %}
+    {% for file in site.static_files %}
+      {% if file.path contains folder_path %}
+        {% assign parts = file.path | split: '/' %}
+        {% if parts.size == 5 %}
           <tr>
-            <th>Year</th>
-            <th>Semester</th>
-            <th>Files</th>
+            <td>{{ parts[2] }}</td>
+            <td>{{ parts[3] }}</td>
+            <td><a href="{{ file.path }}">{{ parts[4] }}</a></td>
           </tr>
-        </thead>
-        <tbody>
-          {% assign folder_path = '/question-papers/' %}
-          {% for file in site.static_files %}
-            {% if file.path contains folder_path %}
-              {% assign parts = file.path | split: '/' %}
-              {% if parts.size == 5 %}
-                <tr>
-                  <td>{{ parts[2] }}</td>
-                  <td>{{ parts[3] }}</td>
-                  <td><a href="{{ file.path }}">{{ parts[4] }}</a></td>
-                </tr>
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-        </tbody>
-      </table>
-    
-    
-    <script>
-      document.getElementById('filter-input').addEventListener('keyup', filterTable);
-      document.getElementById('year-dropdown').addEventListener('change', filterTable);
-      document.getElementById('semester-dropdown').addEventListener('change', filterTable);
-    
-      function filterTable() {
-        var searchText = document.getElementById('filter-input').value.toLowerCase();
-        var yearFilter = document.getElementById('year-dropdown').value.toLowerCase();
-        var semesterFilter = document.getElementById('semester-dropdown').value.toLowerCase();
-        var rows = document.querySelectorAll('.table tbody tr');
-    
-        for (var i = 0; i < rows.length; i++) {
-          var year = rows[i].querySelector('td:nth-child(1)').textContent.toLowerCase();
-          var semester = rows[i].querySelector('td:nth-child(2)').textContent.toLowerCase();
-          var files = rows[i].querySelector('td:nth-child(3)').textContent.toLowerCase();
-    
-          var yearMatch = year.includes(yearFilter) || yearFilter === '';
-          var semesterMatch = semester.includes(semesterFilter) || semesterFilter === '';
-          var textMatch = year.includes(searchText) || semester.includes(searchText) || files.includes(searchText);
-    
-          if (yearMatch && semesterMatch && textMatch) {
-            rows[i].style.display = 'table-row';
-          } else {
-            rows[i].style.display = 'none';
-          }
-        }
-      }
-    </script>
-    
-    
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
 
 
+<script>
+document.getElementById('filter-input').addEventListener('keyup', filterTable);
+document.getElementById('year-dropdown').addEventListener('change', filterTable);
+document.getElementById('semester-dropdown').addEventListener('change', filterTable);
 
-  </div><!-- col end -->
-</div><!-- 1st row end-->
+function filterTable() {
+  var searchText = document.getElementById('filter-input').value.toLowerCase();
+  var yearFilter = document.getElementById('year-dropdown').value.toLowerCase();
+  var semesterFilter = document.getElementById('semester-dropdown').value.toLowerCase();
+  var rows = document.querySelectorAll('.table tbody tr');
+
+  for (var i = 0; i < rows.length; i++) {
+    var year = rows[i].querySelector('td:nth-child(1)').textContent.toLowerCase();
+    var semester = rows[i].querySelector('td:nth-child(2)').textContent.toLowerCase();
+    var files = rows[i].querySelector('td:nth-child(3)').textContent.toLowerCase();
+
+    var yearMatch = year.includes(yearFilter) || yearFilter === '';
+    var semesterMatch = semester.includes(semesterFilter) || semesterFilter === '';
+    var textMatch = year.includes(searchText) || semester.includes(searchText) || files.includes(searchText);
+
+    if (yearMatch && semesterMatch && textMatch) {
+      rows[i].style.display = 'table-row';
+    } else {
+      rows[i].style.display = 'none';
+    }
+  }
+}
+</script>
+
+

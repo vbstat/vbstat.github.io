@@ -1,0 +1,133 @@
+- year: 2022
+  alumni:
+    - name: ADRIJA BANERJEE
+      email: adrija.banerjee@example.com
+      image: pata.jpg
+      social:
+        - platform: Facebook
+          link: https://facebook.com/adrijabanerjee
+        - platform: Twitter
+          link: https://twitter.com/adrijabanerjee
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/adrijabanerjee/
+
+    - name: ANUSHRI SIL
+      email: anushri.sil@example.com
+      image: pata.jpg
+      social:
+        - platform: Twitter
+          link: https://twitter.com/anushrisil
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/anushrisil/
+        - platform: Facebook
+          link: https://facebook.com/anushrisil
+
+    - name: ANUSREE SENGUPTA
+      email: anusree.sengupta@example.com
+      image: pata.jpg
+      social:
+        - platform: Twitter
+          link: https://twitter.com/anusreesengupta
+        - platform: Facebook
+          link: https://facebook.com/anusreesengupta
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/anusreesengupta/
+
+    - name: ARIJEET CHAKRABORTY
+      email: arijeet.chakraborty@example.com
+      image: pata.jpg
+      social:
+        - platform: Facebook
+          link: https://facebook.com/arijeetchakraborty
+        - platform: Twitter
+          link: https://twitter.com/arijeetchakraborty
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/arijeetchakraborty/
+
+    - name: ATISH KUMAR GARAI
+      email: atish.kumar.garai@example.com
+      image: pata.jpg
+      social:
+        - platform: Twitter
+          link: https://twitter.com/atishkumargarai
+        - platform: Facebook
+          link: https://facebook.com/atishkumargarai
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/atishkumargarai/
+
+    - name: DAMAYANTI BHATTACHARYA
+      email: damayanti.bhattacharya@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/damayantibhattacharya/
+        - platform: Twitter
+          link: https://twitter.com/damayantibhattacharya
+        - platform: Facebook
+          link: https://facebook.com/damayantibhattacharya
+
+    - name: INDRAJIT NANDI
+      email: indrajit.nandi@example.com
+      image: pata.jpg
+      social:
+        - platform: Facebook
+          link: https://facebook.com/indrajitnandi
+        - platform: Twitter
+          link: https://twitter.com/indrajitnandi
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/indrajitnandi/
+
+    - name: RAHUL GUPTA
+      email: rahul.gupta@example.com
+      image: pata.jpg
+      social:
+        - platform: Twitter
+          link: https://twitter.com/rahulgupta
+        - platform: Facebook
+          link: https://facebook.com/rahulgupta
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/rahulgupta/
+
+    - name: RAKHI NAG
+      email: rakhi.nag@example.com
+      image: pata.jpg
+      social:
+        - platform: Facebook
+          link: https://facebook.com/rakhinag
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/rakhinag/
+        - platform: Twitter
+          link: https://twitter.com/rakhinag
+
+    - name: RITABRATA GHOSH
+      email: ritabrata.ghosh@example.com
+      image: pata.jpg
+      social:
+        - platform: Twitter
+          link: https://twitter.com/ritabrataghosh
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/ritabrataghosh/
+        - platform: Facebook
+          link: https://facebook.com/ritabrataghosh
+
+    - name: SANDIPAN DAS
+      email: sandipan.das@example.com
+      image: pata.jpg
+      social:
+        - platform: Facebook
+          link: https://facebook.com/sandipandas
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sandipandas/
+        - platform: Twitter
+          link: https://twitter.com/sandipandas
+
+    - name: SAYANTAN BISWAS
+      email: sayantan.biswas@example.com
+      image: pata.jpg
+      social:
+        - platform: LinkedIn
+          link: https://www.linkedin.com/in/sayantanbiswas/
+        - platform: Facebook
+          link: https://facebook.com/sayantanbiswas
+        - platform: Twitter
+          link: https://twitter.com/sayantanbiswas

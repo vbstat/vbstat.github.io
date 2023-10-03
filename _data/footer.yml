@@ -1,0 +1,20 @@
+
+Logo:
+  path: /assets/images/pata.png
+  alt: Visva-Bharati pata photo
+
+description: >- 
+  Department offers undergraduate Statistics programs with majors and minors, along with a M.Sc. program and a Ph.D. program in Statistics.
+
+
+working_time: >- 
+  Weekly, every day excluding Saturday and Sunday and holidays in Academic calendar. Break 1.30pm to 2.30pm Contact us if you have an emergency.
+
+links: 
+  - label: Exam Section
+    link: https://vbu.ucanapply.com/universitysystem/student/
+  - label: Admission Cell
+    link: https://www.vbadmission.in/
+  - label: All Notice
+    link: https://visvabharati.ac.in/list_all_notice.html/type/notice
+

@@ -1,34 +1,45 @@
-- title: About Us
-  items:
-    - title: About the Department
-      url: /about-department
-    - title: Department Location
-      url: /about-department-location
-    - title: Contact Address
-      url: /contact-address
-- title: Admission
-  items:
-    - title: B.Sc.
-      url: /admission-bsc-courses
-    - title: M.SC.
-      url: /admission-msc-courses
-    - title: PhD
-      url: /admission-phd-courses
-- title: People
-  items:
-    - title: Faculty
-      url: /faculty
-    - title: Research Scholars
-      url: /research-scholars
-    - title: Alumni
-      url: /alumni
-    - title: Visitors
-      url: /visitors
-- title: Question Papers
-  url: /question-papers
-- title: Notes
-  url: /notes
-- title: Research
-  url: /research
-- title: Notice
-  url: /notice
+
+menu:
+  - label: About
+    items:
+      - label: About Department
+        link: /about-department
+      - label: Location
+        link: /department-location
+      - label: Contact Address
+        link: /contact-address
+  - label: Admission
+    items:
+      - label: B.Sc
+        link: /admission-bsc-courses
+      - label: M.Sc
+        link: /admission-msc-courses
+      - label: PHD
+        link: /admission-phd-courses
+
+
+  - label: People
+    items:
+      - label: Faculty
+        link: /faculty
+      - label: Scholars
+        link: /scholars
+      - label: Students
+        link: /students
+      - label: Alumni
+        submenu:
+          - label: UG
+            link: "/ug-alumni"
+          - label: PG
+            link: "/pg-alumni"
+
+
+  - label: Question Papers
+    link: /question-papers  
+  - label: Notes
+    link: /notes
+  - label: Events
+    link: /events
+  - label: Notice
+    link: /notice
+

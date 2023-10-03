@@ -1,0 +1,47 @@
+---
+layout: people
+permalink: /pg-alumni
+title: Alumni
+description: alumni
+---
+
+<div class="container pt-5">
+
+{% for year in site.data.alumni.pg %}
+<h2>{{ year.year }}</h2>
+<div class="row">
+  {% for alumni in year.alumni %}
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-5 ">
+      <div class="alumni-wrapper card p-3">
+        <div class="alumni-img-wrapper">
+          <img src="/assets/images/alumni/{{ alumni.image }}" class="img-fluid" alt="{{ alumni.name }} Profile">
+        </div>
+        <div class="alumni-content ">
+          <h3 class="alumni-name">{{ alumni.name }}</h3>
+          <p class="alumni-email">{{ alumni.email }}</p>
+          <div class="team-social-icons lead">
+            {% for social_link in alumni.social %}
+              {% if social_link.platform == "LinkedIn" %}
+                <a target="_blank" href="{{ social_link.link }}"><i class="fab fa-linkedin"></i></a>
+              {% elsif social_link.platform == "Twitter" %}
+                <a target="_blank" href="{{ social_link.link }}"><i class="fab fa-twitter"></i></a>
+              {% elsif social_link.platform == "Facebook" %}
+                <a target="_blank" href="{{ social_link.link }}"><i class="fab fa-facebook"></i></a>
+              {% elsif social_link.platform == "Instagram" %}
+                <a target="_blank" href="{{ social_link.link }}"><i class="fab fa-instagram"></i></a>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <!--/ social-icons-->
+        </div>
+      </div>
+    </div><!-- Col end -->
+  {% endfor %}
+</div><!-- Row end --> <hr><hr>
+{% endfor %}
+
+ 
+</div>
+
+
+

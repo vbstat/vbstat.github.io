@@ -1,0 +1,62 @@
+---
+layout: people
+permalink: /scholars
+title: Scholars
+description: scholars
+---
+
+<div class="container pt-5">
+
+   
+
+
+
+    <div class="row">
+
+
+
+
+
+
+      {% for scholar in site.data.scholars %}
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-5  ">
+          <div class="ts-team-wrapper">
+            <div class="team-img-wrapper">
+              <img loading="lazy" src="{{ scholar.image }}" class="img-fluid" alt="team-img">
+            </div>
+            <div class="ts-team-content-classic">
+              <h3 class="ts-name">{{ scholar.name }}</h3>
+              
+              <p class="ts-description">{{ scholar.about }}</p>
+              <p>Email<strong>{{ scholar.email }}</strong></p>
+              
+              <!--/ social-icons-->
+            </div>
+          </div>
+          <!--/ Team wrapper end -->
+        </div><!-- Col end -->
+      {% endfor %}
+
+
+
+
+
+
+
+
+      
+    </div><!-- Row end -->
+    
+
+
+
+
+
+
+</div>
+
+
+
+
+
+

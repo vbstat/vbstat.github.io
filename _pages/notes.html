@@ -3,59 +3,41 @@ layout: page
 permalink: /notes
 title: Notes
 description: Notes BSc notes handouts and pdfs
+date: 2023-08-29T12:00:00Z
 ---
 
 
-<h2 class="column-title mrt-0">{{ page.title }}</h2>
+<p>List of Notes papers wise listed</p>
+<ul class="list-group">
+    {% assign folder_counts = "" %}
+    {% for folder in site.static_files %}
+      {% if folder.path contains '/note/' and folder.path != '/note/' %}
+        {% assign parts = folder.path | split: '/' %}
+        {% assign foldername = parts[2] %}
+        {% unless folder_counts contains foldername %}
+          {% assign file_count = 0 %}
+          {% for file in site.static_files %}
+            {% if file.path contains '/note/' and file.path contains foldername %}
+              {% assign file_count = file_count | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          <li class="pb-5 list-group-item">
+            <a class="fw-bold" data-toggle="collapse" href="#{{ foldername }}" role="button" aria-expanded="false" aria-controls="{{ foldername }}">
+              {{ foldername }}    <span class="badge rounded-pill text-bg-light float-end">{{ file_count }}</span>    
+            </a>
+            <div class="collapse show" id="{{ foldername }}"> <!-- Add the 'show' class here -->
+              <ul>
+                {% for file in site.static_files %}
+                  {% if file.path contains '/note/' and file.path contains foldername %}
+                    <li><a href="{{ file.path }}">{{ file.name }}</a></li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
+          {% assign folder_counts = folder_counts | append: foldername | append: ";" %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </ul>
   
-<div class="row">
-  <div class="col-md-12">
-    <p>List of Notes papers wise listed </p>
-
-     
-    
-    <ul class="list-group">
-        {% assign folder_counts = "" %}
-        {% for folder in site.static_files %}
-          {% if folder.path contains '/note/' and folder.path != '/note/' %}
-            {% assign parts = folder.path | split: '/' %}
-            {% assign foldername = parts[2] %}
-            {% unless folder_counts contains foldername %}
-              {% assign file_count = 0 %}
-              {% for file in site.static_files %}
-                {% if file.path contains '/note/' and file.path contains foldername %}
-                  {% assign file_count = file_count | plus: 1 %}
-                {% endif %}
-              {% endfor %}
-              <li class="list-group-item">
-                <a data-toggle="collapse" href="#{{ foldername }}" role="button" aria-expanded="false" aria-controls="{{ foldername }}">
-                  {{ foldername }}    <span class="badge badge-primary badge-pill float-right">{{ file_count }}</span>    
-                </a>
-                <div class="collapse" id="{{ foldername }}">
-                  <ul>
-                    {% for file in site.static_files %}
-                      {% if file.path contains '/note/' and file.path contains foldername %}
-                        <li><a href="{{ file.path }}">{{ file.name }}</a></li>
-                      {% endif %}
-                    {% endfor %}
-                  </ul>
-                </div>
-              </li>
-              {% assign folder_counts = folder_counts | append: foldername | append: ";" %}
-            {% endunless %}
-          {% endif %}
-        {% endfor %}
-      </ul>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-  </div><!-- col end -->
-</div><!-- 1st row end-->

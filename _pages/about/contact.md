@@ -1,37 +1,17 @@
 ---
 layout: page
 permalink: /contact-address
+date: 2023-07-29T12:00:00Z
 title: Contact
 description: Contact adresses of  Statistcs department Visva-Bharati
 ---
 
 
-<h2 class="column-title mrt-0">Contact</h2>
+ If you have any questions, please contact the HOD of Statistics at: \
+ <a href="mailto:hod.statistics@visva-bharati.ac.in">hod.statistics@visva-bharati.ac.in</a>
+ 
+
   
-<div class="row">
-  <div class="col-md-12">
-    
-
-    
-    <div class="row">
-  <div class="col-md-8">
-    <p>
-      If you have any questions, please contact the HOD of Statistics at:
-      <a href="mailto:hod.statistics@visva-bharati.ac.in">hod.statistics@visva-bharati.ac.in</a>
-    </p>
-  </div>
-  <div class="col-md-4">
-    <a href="mailto:hod.statistics@visva-bharati.ac.in" class="btn btn-primary">Contact HOD</a>
-  </div>
-</div>
-
-
-
-       
-
-  </div><!-- col end -->
-</div><!-- 1st row end-->
-
 
 <hr>
 

@@ -1,0 +1,19 @@
+show: true
+
+heading:
+  icon: fas fa-graduation-cap
+  text: Visva-Bharti, Siksha-Bhavana, Santiniketan
+
+links:
+   social:
+    - title: Coordinator
+      link: https://www.linkedin.com/in/statistics-department-vbu-7ab377266?originalSubdomain=in
+      icon: fab fa-linkedin
+
+    - title: People
+      link: https://github.com/vbstat/vbstat.github.io/graphs/contributors
+      icon: fa fa-users
+
+    - title: Write
+      link: https://github.com/mrinalcs/vbstat/edit/main/index.html
+      icon: fa fa-edit

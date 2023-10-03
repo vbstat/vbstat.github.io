@@ -1,14 +1,15 @@
-- title: About Department
-  url: /about-department
-- title: Location
-  url: /about-department-location
-- title: Faculty
-  url: /faculty
-- title: Question papers
-  url: /question-papers
-- title: Notes
-  url: /notes
-- title: Research
-  url: /research
-- title: Notice
-  url: /notice
+links:
+  - label: About Department
+    link: /about-department
+  - label: Location
+    link: /department-location
+  - label: Faculty
+    link: /faculty
+  - label: Question papers
+    link: /question-papers
+  - label: Notes
+    link: /notes
+  - label: Events
+    link: /events
+  - label: Notice
+    link: /notice

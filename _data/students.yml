@@ -1,0 +1,32 @@
+- program: UG
+  years:
+    - year: 2nd Year
+      students:
+        - name: ANKITA SINGHA RAY
+          email: ankita@example.com
+        - name: ARITRI MUKHERJEE
+          email: aritri@example.com
+        - name: DIPANWITA DOLAI
+          email: dipanwita@example.com
+        - name: DISHA ROY
+          email: disha@example.com
+        - name: HARSHATA ROY
+          email: harshata@example.com
+        - name: MAHI KUMARI
+          email: mahi@example.com
+        - name: RANJAN KUMAR
+          email: ranjan@example.com
+        - name: SACHIN KUMAR
+          email: sachin@example.com
+        - name: SAMPRIKTA PYNE
+          email: samprikta@example.com
+        - name: SANJEEV KUMAR
+          email: sanjeev@example.com
+        - name: SHIVAM RAWAT
+          email: shivam@example.com
+        - name: SHRAYA BARDHAN
+          email: shraya@example.com
+        - name: SOUVIK MONDAL
+          email: souvik@example.com
+        - name: SRINJAN SANYAL
+          email: srinjan@example.com
