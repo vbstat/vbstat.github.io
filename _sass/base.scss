@@ -355,7 +355,8 @@ ul.navbar-nav>li>a {
 
 @media (max-width:991px) {
   .dropdown-menu {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, .05)
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .05);
+    border-left: 2px solid rgba(0,0,0,0.1);
   }
 }
 
@@ -366,7 +367,7 @@ ul.navbar-nav>li>a {
 .dropdown-menu li a {
   font-family: Montserrat, sans-serif;
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
   line-height: normal;
@@ -861,13 +862,24 @@ th, td {
 }
 
 
-table {
-  overflow: auto;
-  display: block;
-  table-layout: auto;
-  }
+// table {
+//   overflow: auto;
+//   display: block;
+//   table-layout: auto;
+//   }
 
-  
+
+
+@media only screen and (max-width: 480px){
+table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+}
+
+
 
 /* faculty*/
 .faculty-team-content-classic .faculty-name {
