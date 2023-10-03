@@ -2,7 +2,7 @@
 layout: page
 permalink: /admission-bsc-courses
 title: Admission to UG
-description: Admission BSC Courses
+description: Admission BSC programme to Department of Statistcs, Visva-Bharati
 date: 2023-07-29T12:00:00Z
 ---
 

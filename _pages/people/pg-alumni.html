@@ -1,14 +1,15 @@
 ---
 layout: people
 permalink: /pg-alumni
-title: Alumni
-description: alumni
+title: PG Alumni
+description: Alumni of Department of Statistcs, Visva-Bharati
 ---
 
 <div class="container pt-5">
+  <h1 class="h1 text-center"> PG Alumni </h1>
 
 {% for year in site.data.alumni.pg %}
-<h2>{{ year.year }}</h2>
+<h2 class="h1" id="{{ year.year }}">{{ year.year }}</h2><hr>
 <div class="row">
   {% for alumni in year.alumni %}
     <div class="col-lg-3 col-md-4 col-sm-6 mb-5 ">

@@ -2,7 +2,7 @@
 layout: page
 permalink: /admission-phd-courses
 title: Admission to PHD
-description: Admission PHD Courses
+description: Admission PHD Programme to Department of Statistcs, Visva-Bharati
 date: 2023-07-29T12:00:00Z
 ---
 

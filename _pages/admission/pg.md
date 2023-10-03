@@ -2,7 +2,7 @@
 layout: page
 permalink: /admission-msc-courses
 title: Admission to PG
-description: Admission MSC Courses
+description: Admission MSC Programme to Department of Statistcs, Visva-Bharati
 date: 2023-07-29T12:00:00Z
 ---
 
