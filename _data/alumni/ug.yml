@@ -2,7 +2,7 @@
   alumni:
     - name: ANEEK SARKAR
       email: aneeksarkar.mlp@gmail.com
-      image: pata.jpg
+      image: aneek.webp
       social:
         - platform: LinkedIn
           link: https://www.linkedin.com/in/aneeksarkar/
@@ -12,7 +12,7 @@
           link: https://facebook.com/aneeksarkar
     - name: AYAN CHOUDHURY
       email: aychoudhury2002@gmail.com
-      image: pata.jpg
+      image: ayan.webp
       social:
         - platform: LinkedIn
           link: https://www.linkedin.com/in/ayanchoudhury/
@@ -22,7 +22,7 @@
           link: https://facebook.com/ayanchoudhury
     - name: BIDISHA BHANDARI
       email: bidishabhandari23@gmail.com
-      image: pata.jpg
+      image: b.webp
       social:
         - platform: LinkedIn
           link: https://www.linkedin.com/in/bidishabhandari/
@@ -32,7 +32,7 @@
           link: https://facebook.com/bidishabhandari
     - name: KRISHNENDU DUTTA
       email: kdkrishnendu50@gmail.com
-      image: pata.jpg
+      image: kd.webp
       social:
         - platform: LinkedIn
           link: https://www.linkedin.com/in/krishnendudutta/
@@ -42,17 +42,15 @@
           link: https://facebook.com/krishnendudutta
     - name: MRINAL CHANDRA SARKAR
       email: mrinalvbu@gmail.com
-      image: pata.jpg
+      image: mrinal.webp
       social:
         - platform: LinkedIn
-          link: https://www.linkedin.com/in/mrinalsarkar/
-        - platform: Twitter
-          link: https://twitter.com/mrinalsarkar
+          link: https://www.linkedin.com/in/mrinalcs/
         - platform: Facebook
-          link: https://facebook.com/mrinalsarkar
+          link: https://facebook.com/mrinalcs
     - name: PAPU MAHANTA
       email: papupundra@gmail.com
-      image: pata.jpg
+      image: papu.webp
       social:
         - platform: LinkedIn
           link: https://www.linkedin.com/in/papumahanta/
@@ -62,7 +60,7 @@
           link: https://facebook.com/papumahanta
     - name: RAJDEEP NANDI
       email: nandirajdeep07@gmail.com
-      image: pata.jpg
+      image: rajdeep.webp
       social:
         - platform: LinkedIn
           link: https://www.linkedin.com/in/rajdeepnandi/
@@ -92,7 +90,7 @@
           link: https://facebook.com/sandipmishra
     - name: SAYANTAN SINHA
       email: sayantansinha987@gmail.com
-      image: pata.jpg
+      image: sayantan.webp
       social:
         - platform: LinkedIn
           link: https://www.linkedin.com/in/sayantansinha/
@@ -122,7 +120,7 @@
           link: https://facebook.com/soumyasarkar
     - name: SOURJYA SEN
       email: sourjyasen2018@gmail.com
-      image: pata.jpg
+      image: sourjya.webp
       social:
         - platform: LinkedIn
           link: https://www.linkedin.com/in/sourjyasen/
@@ -152,7 +150,7 @@
           link: https://facebook.com/sujashbasak
     - name: SUKANTA MALICK
       email: sukanta.m.bwn@gmail.com
-      image: pata.jpg
+      image: sukanta.webp
       social:
         - platform: LinkedIn
           link: https://www.linkedin.com/in/sukantamalick/
@@ -162,7 +160,7 @@
           link: https://facebook.com/sukantamalick
     - name: TAPAN BARMAN
       email: tapanbarmantushar@gmail.com
-      image: pata.jpg
+      image: tapan.webp
       social:
         - platform: LinkedIn
           link: https://www.linkedin.com/in/tapanbarman/
@@ -172,7 +170,7 @@
           link: https://facebook.com/tapanbarman
     - name: ABHRA ROY
       email: abhraroy03@gmail.com
-      image: pata.jpg
+      image: abhra.webp
       social:
         - platform: LinkedIn
           link: https://www.linkedin.com/in/abharoy/
@@ -182,7 +180,7 @@
           link: https://facebook.com/abharoy
     - name: SUMIT KUMAR
       email: amitavinashss111@gmail.com
-      image: pata.jpg
+      image: sumit.webp
       social:
         - platform: LinkedIn
           link: https://www.linkedin.com/in/sumitkumar/
