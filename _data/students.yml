@@ -30,3 +30,47 @@
           email: souvik@example.com
         - name: SRINJAN SANYAL
           email: srinjan@example.com
+
+
+
+
+
+
+- program: PG
+  years:
+    - year: 2nd Year
+      students:
+        - name: ANANYA BAKSHI
+          email: ananya@example.com
+        - name: ANJAN PRAMANIK
+          email: anjan@example.com
+        - name: DEBJANI DAS
+          email: debjani@example.com
+        - name: DEBOLINA KUMAR
+          email: debolina@example.com
+        - name: INDRASISH BOSE
+          email: indrasish@example.com
+        - name: IPSHITA NANDI
+          email: ipshita@example.com
+        - name: KANKANA DAS
+          email: kankana@example.com
+        - name: PRIYA MONDAL
+          email: priya@example.com
+        - name: SANCHITA CHOWDHURY
+          email: sanchita@example.com
+        - name: SEIKH SAYED ANOWAR
+          email: anowar@example.com
+        - name: SHRESTHA GHOSH
+          email: shrestha@example.com
+        - name: SHREYASI CHAKRABORTY
+          email: shreyasi@example.com
+        - name: SHYAMAL KUMAR DAS
+          email: shyamal@example.com
+        - name: TANIA DAS
+          email: tania@example.com
+        - name: TANMAY GAYEN
+          email: tanmay@example.com
+        - name: TITIR MANDAL
+          email: titir@example.com
+        - name: SARNALINA DATTA
+          email: sarnalina@example.com
