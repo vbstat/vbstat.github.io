@@ -1,0 +1,134 @@
+---
+layout: base
+---
+
+
+<section>
+    <div class="container">
+      <div class="row">
+        {%- include sidebar.html -%}
+  
+
+        <div class="col-xl-8 col-lg-8">
+            <div class="content-inner-page">
+
+<img class="img-thumbnail" src="{{page.image}}" width="200px" alt=""> 
+<h1 class="title pt-2">{{page.title}}</h1>
+Email: <strong>{{ page.email }}</strong> <br>
+
+
+
+   <div class="social pt-4 pb-4">
+
+ 
+
+
+<ul class="d-flex" style="list-style-type: none;padding: 0;letter-spacing: 10px;">
+
+<li>
+  {% if page.website %}
+  <a target="_blank" href="{{ page.website | social_media_url: 'website' }}">  <i class="fas fa-globe"></i></a>
+  {% endif %}
+</li>
+
+
+<li>
+  {% if page.email %}
+  <a href="mailto:{{ page.email }}"> <i class="fas fa-envelope"></i></a> <br> 
+  {% endif %}
+</li>
+
+<li>
+  {% if page.linkedin %}
+  <a target="_blank" href="{{ page.linkedin | social_media_url: 'linkedin' }}" rel="noreferrer"> <i class="fab fa-linkedin"></i> </a>
+  {% endif %}
+</li>
+
+<li>
+{% if page.googlescholar %}
+<a target="_blank" href="{{ page.googlescholar | social_media_url: 'googlescholar' }}" rel="noreferrer">  <i class="fas fa-graduation-cap"></i> </a>
+{% endif %}
+</li>
+
+<li>
+{% if page.mobile %}
+<a target="_blank" href="tel:{{ page.mobile }}" rel="noreferrer">  <i class='fas fa-phone-alt'></i> </a>
+{% endif %}
+</li>
+
+<li>
+{% if page.github %}
+<a target="_blank" href="{{ page.github | social_media_url: 'github' }}" rel="noreferrer">  <i class='fab fa-github'></i> </a>
+{% endif %}
+</li>
+
+<li>
+{% if page.twitter %}
+<a target="_blank" href="{{ page.twitter | social_media_url: 'twitter' }}" rel="noreferrer"> <i class="fab fa-twitter"></i> </a>
+{% endif %}
+</li>
+
+<li>
+{% if page.facebook %}
+<a target="_blank" href="{{ page.facebook | social_media_url: 'facebook' }}" rel="noreferrer"> <i class="fab fa-facebook"></i> </a>
+{% endif %}
+</li>
+
+<li>
+{% if page.youtube %}
+<a target="_blank" href="{{ page.youtube | social_media_url: 'youtube' }}" rel="noreferrer"> <i class="fab fa-youtube"></i> </a>
+{% endif %}
+</li>
+
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+<h2>Qualifications</h2>
+
+<ul>
+{% for degree in page.degrees %}
+  <li>
+    {{ degree.name }}
+    {% if degree.passing_year %}
+      ({{ degree.passing_year }})
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+
+
+
+
+
+
+
+
+</div>
+
+{{ content }}
+ 
+
+
+
+
+       
+
+    </div><!-- Content inner end -->
+ </div><!-- Content Col end -->
+
+
+
+
+</div><!-- Main row end -->
+</div><!-- Conatiner end -->
+</section>

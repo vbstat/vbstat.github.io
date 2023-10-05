@@ -20,7 +20,7 @@ plugins:
 
 feed:
   path: feed.xml
-  collections: ['pages', 'faculty']
+  collections: ['pages', 'faculty', 'students']
 
 permalink: /:title
 
@@ -30,7 +30,9 @@ collections:
   faculty:
     output: true
     permalink: /:title
-
+  students:
+    output: true
+    permalink: /:title
 
 defaults:
   - scope:
@@ -38,6 +40,12 @@ defaults:
       type: "faculty"
     values:
       layout: "faculty"
+
+  - scope:
+      path: ""
+      type: "students"
+    values:
+      layout: "student" 
 
 sass:
   sass_dir: _sass
