@@ -1,117 +1,63 @@
 ---
-layout: page
+layout: home
+title: Department of Statistics
 description: "Welcome to the unofficial website of the Department of Statistics at VisvaBharati. Meet faculties, students and alumnis. Explore our department, lecture notes, previous year question, and other resources."
-date: 2023-10-03T12:00:00Z
+date: 2023-10-07T12:00:00Z
 ---
 
 <section id="home-hero">
-    <div class="container">
-      <div class="row  flex-lg-row-reverse">
-
-
-
-        <div class="col-lg-6 mt-5 mt-lg-0">
-            
-        
-            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="/assets/images/slider/1.jpg" class="d-block w-100" alt="Department photo">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="/assets/images/slider/2.jpg" class="d-block w-100" alt="Classroom seminar room">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="/assets/images/slider/3.jpg" class="d-block w-100" alt="Visva-Bharati arts">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+  <div class="container">
+    <div class="row  flex-lg-row-reverse">
+      <div class="col-lg-6 mt-5 mt-lg-0">
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-inner">
+            {% for item in site.data.home.carousel %}
+              <div class="carousel-item{% if forloop.first %} active{% endif %}">
+                <img src="{{ site.url }}{{ item.image }}" class="d-block w-100" alt="{{ item.alt }}">
               </div>
-          
-  
-          </div><!-- Col end -->
+            {% endfor %}
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
 
-
-
-  
-
-
-          <div class="col-lg-6" >
-            
-
-            <figure class="text-center">
-                <blockquote class="blockquote pt-5 h2">
-                  <p>Visva-Bharati represents India where she has her wealth of mind which is for all. Visva-Bharati acknowledges India's obligation to offer to others the hospitality of her best culture and India's right to accept from others their best.</p>
-                </blockquote>
-                <figcaption class="blockquote-footer">
-                    Rabindranath Tagore <cite title="Source Title"> from Visva-Bharati Website</cite>
-                </figcaption>
-              </figure>
-
-            
-          </div><!-- Col end -->
-  
-
-
-
-
-      </div><!-- Content row end -->
-  
-    </div><!-- Container end -->
-  </section> 
-  
+      <div class="col-lg-6">
+        <figure class="text-center">
+          <blockquote class="blockquote pt-5 h2">
+            <p>{{ site.data.home.intro.quote }}</p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            {{ site.data.home.intro.author }}
+            <cite title="Source Title">{{ site.data.home.intro.source }}</cite>
+          </figcaption>
+        </figure>
+      </div>
+    </div><!-- Content row end -->
+  </div><!-- Container end -->
+</section>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<section>
   <div class="row">
     <div class="col-lg-6">
       <div class="ts-intro">
-           
-          <h3 class="into-sub-title">Department of Statistics, Visva-Bharti</h3>
-          <p>The Department started in 1999 with its Undergraduate Programmes in
-            Statistics both at Major and Minor levels under Siksha-Bhavana (Institute of
-            Science). It was augmented with a Post Graduate Programme in 2003 and a
-            PhD Programme has also started side by side. It imparts rigorous training
-            and exposure to the students in computer education by way of introducing
-            the latest state-of-the-art in the programming language and computer
-            software to enable to the students to perform statistical data analysis. From
-            inception, apart from its regular courses, it renders service in
-            interdisciplinary research activity.The faculty members have been actively
-            engaged in research in both basic and interdisciplinary fields.</p>
+          <h3 class="into-sub-title">{{ site.data.home.department_intro.title }}</h3>
+          <p>{{ site.data.home.department_intro.content | newline_to_br }}</p>
       </div><!-- Intro box end -->
-
-      
-     
-      
+  
     </div><!-- Col end -->
-
+  
     <div class="col-lg-6 mt-4 mt-lg-0">
        
-
-       
-
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -157,20 +103,7 @@ date: 2023-10-03T12:00:00Z
           </div>
         </div>
       </div>
- 
-
     </div><!-- Col end -->
-</div>
-
-
-
-
-
-
-
- 
-<style>
-    blockquote > p {
-        font-family: cursive;
-    }
-</style>
+  </div>
+  
+</section>

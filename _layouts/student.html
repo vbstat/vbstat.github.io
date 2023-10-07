@@ -74,6 +74,14 @@ Email: <strong>{{ page.email }}</strong> <br>
 {% endif %}
 </li>
 
+
+<li>
+  {% if page.instagram %}
+  <a target="_blank" href="{{ page.instagram | social_media_url: 'instagram' }}" rel="noreferrer"> <i class="fab fa-instagram"></i> </a>
+  {% endif %}
+  </li>
+
+
 <li>
 {% if page.youtube %}
 <a target="_blank" href="{{ page.youtube | social_media_url: 'youtube' }}" rel="noreferrer"> <i class="fab fa-youtube"></i> </a>

@@ -1,48 +1,65 @@
 ---
-layout: people
+layout: page
 permalink: /pg-alumni
 title: PG Alumni
 description: Alumni of Department of Statistcs, Visva-Bharati
 ---
+ 
 
-<div class="container pt-5">
-  <h1 class="h1 text-center"> PG Alumni </h1>
 
-{% for year in site.data.alumni.pg %}
-<h2 class="h1" id="{{ year.year }}">{{ year.year }}</h2><hr>
-<div class="row">
-  {% for alumni in year.alumni %}
-    <div class="col-lg-3 col-md-4 col-sm-6 mb-5 ">
-      <div class="alumni-wrapper card p-3">
-        <div class="alumni-img-wrapper">
-          <img src="/assets/images/alumni/{{ alumni.image }}" class="img-fluid" alt="{{ alumni.name }} Profile">
-        </div>
-        <div class="alumni-content ">
-          <h3 class="alumni-name">{{ alumni.name }}</h3>
-          <p class="alumni-email">{{ alumni.email }}</p>
-          <div class="team-social-icons lead">
-            {% for social_link in alumni.social %}
-              {% if social_link.platform == "LinkedIn" %}
-                <a target="_blank" href="{{ social_link.link }}"><i class="fab fa-linkedin"></i></a>
-              {% elsif social_link.platform == "Twitter" %}
-                <a target="_blank" href="{{ social_link.link }}"><i class="fab fa-twitter"></i></a>
-              {% elsif social_link.platform == "Facebook" %}
-                <a target="_blank" href="{{ social_link.link }}"><i class="fab fa-facebook"></i></a>
-              {% elsif social_link.platform == "Instagram" %}
-                <a target="_blank" href="{{ social_link.link }}"><i class="fab fa-instagram"></i></a>
-              {% endif %}
-            {% endfor %}
-          </div>
-          <!--/ social-icons-->
-        </div>
-      </div>
-    </div><!-- Col end -->
-  {% endfor %}
-</div><!-- Row end --> <hr><hr>
+
+{% assign unique_years = "" | split: "" %}
+
+{% for student in site.students %}
+  {% if student.pg %}
+    {% capture current_year %}{{ "now" | date: "%Y" }}{% endcapture %}
+    {% assign current_year = current_year | plus: 0 %}
+    {% assign pg_year = student.pg | plus: 0 %}
+    {% assign year_difference = current_year | minus: pg_year %}
+    
+    {% if year_difference > 1 %}
+      {% unless unique_years contains pg_year %}
+        {% assign unique_years = unique_years | push: pg_year %}
+      {% endunless %}
+    {% endif %}
+  {% endif %}
 {% endfor %}
 
- 
-</div>
+{% for year in unique_years %}
+  <div class="row pt-5" id="{{ year | plus: 2 }}">
+  
+    <a href="#{{ year | plus: 2 }}"><h2><strong>Year {{ year | plus: 2 }}</strong></h2> <hr></a>
 
-
-
+    {% for student in site.students %}
+      {% if student.pg %}
+        {% capture current_year %}{{ "now" | date: "%Y" }}{% endcapture %}
+        {% assign current_year = current_year | plus: 0 %}
+        {% assign pg_year = student.pg | plus: 0 %}
+        {% assign year_difference = current_year | minus: pg_year %}
+        
+        {% if year_difference > 1 and pg_year == year %}
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+            <a href="{{ student.url | relative_url }}">
+              <div class="wrapper card p-1">
+                <div class="img-wrapper">
+                  <img loading="lazy" src="{{ student.image }}" class="img-fluid" alt="{{ student.title }}">
+                </div>
+                <div class="content pt-2 p-1">
+                  <h3 class="name">{{ student.title }}</h3>
+                              {% if student.working == null or student.working == "" %}
+              {% assign last_degree = student.degrees | last %}
+              {% if last_degree %}
+           <p class="description">{{ last_degree.name }}</p>
+               {% endif %}
+            {% else %}
+              <p class="description">{{ student.working }}</p>
+            {% endif %}
+                </div>
+              </div>
+            </a>
+          </div><!-- Col end -->
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div><!-- Row end -->
+{% endfor %}

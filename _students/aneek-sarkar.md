@@ -1,16 +1,24 @@
 ---
-title: Aneek Sarkar
-date: 2023-09-20T13:45:06+10:00
-image: "/assets/images/student/mrinal-chandra-sarkar.jpg"
-email: anik@gmail.com
-facebook: "https://fb.com/mrinalcs"
-instagram: ""
-linkedin: "mrinalchandrasarkar"
-github: "mrinalcs"
-twitter: ""
-youtube: ""
-mobile: "9831695750"
-description: ""
+title: Aneek Sarkar                   
+date: 2023-09-10T13:45:06+10:00                # last updated
+image: "/assets/images/student/aneek-sarkar.jpg"   # rekative path 
+email: papumahanta@gmail.com
+facebook: "aneek"        
+instagram: "aneeek"
+# linkedin: ""     
+# github: ""              
+# twitter: ""
+# youtube: ""
+# mobile: ""    
+description: ""        # for meta description
+degrees:
+  - name: B.Sc Statistics            
+    passing_year: 2023
+  - name: M.Sc in Statistics
+    passing_year:  
+# website: ""
+# googlescholar: "" 
+ug: 2020     # iff from vb , to  be used for alumni , student page
+pg: 2023     # iff from vb , same
+working: ""
 ---
-
-

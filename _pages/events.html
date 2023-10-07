@@ -6,4 +6,40 @@ date: 2023-08-29
 description: Events 
 ---
 
-## Upcomming events
+
+
+
+ 
+<div class="row">
+    {% for image in site.static_files %} 
+    {% if image.path contains 'assets/images/events/' %}
+    <div class="col-md-4">
+        <div class="thumbnail pt-5">
+            <a href="{{ site.baseurl }}{{ image.path }}" data-bs-toggle="modal" data-bs-target="#{{ image.name | remove: '.' }}">
+                <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name | remove: '.' }}" class="img-fluid img-thumbnail">
+            </a>
+        </div>
+    </div>
+    <div class="modal fade" id="{{ image.name | remove: '.' }}" tabindex="-1" aria-labelledby="{{ image.name | remove: '.' }}Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="{{ image.name | remove: '.' }}Label">{{ image.name | replace: '.jpg', '' | replace: '-', ' ' | capitalize }}</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name | remove: '.' }}" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
+
+
+
+    
+ 
+ 
+    

@@ -1,0 +1,35 @@
+# _data/home.yml
+
+carousel:
+  - image: /assets/images/slider/1.jpg
+    alt: Department photo
+  - image: /assets/images/slider/2.jpg
+    alt: Classroom seminar room
+  - image: /assets/images/slider/3.jpg
+    alt: Visva-Bharati arts
+  - image: /assets/images/slider/4.jpg
+    alt: statistics dept
+  - image: /assets/images/slider/5.jpg
+    alt: VBSTAT location
+
+intro:
+  quote: >
+    Visva-Bharati represents India where she has her wealth of mind which is for all.
+    Visva-Bharati acknowledges India's obligation to offer to others the hospitality
+    of her best culture and India's right to accept from others their best.
+  author: Rabindranath Tagore
+  source: Visva-Bharati Website
+
+department_intro:
+  title: "Department of Statistics, Visva-Bharti"
+  content: >
+    The Department started in 1999 with its Undergraduate Programmes in
+    Statistics both at Major and Minor levels under Siksha-Bhavana (Institute of
+    Science). It was augmented with a Post Graduate Programme in 2003 and a
+    PhD Programme has also started side by side. It imparts rigorous training
+    and exposure to the students in computer education by way of introducing
+    the latest state-of-the-art in the programming language and computer
+    software to enable the students to perform statistical data analysis. From
+    inception, apart from its regular courses, it renders service in
+    interdisciplinary research activity. The faculty members have been actively
+    engaged in research in both basic and interdisciplinary fields.

@@ -8,7 +8,7 @@ date: 2023-08-29T12:00:00Z
 
 
 <p>List of Notes papers wise listed</p>
-<ul class="list-group">
+<ul class="list-group text-break">
     {% assign folder_counts = "" %}
     {% for folder in site.static_files %}
       {% if folder.path contains '/note/' and folder.path != '/note/' %}
@@ -22,7 +22,7 @@ date: 2023-08-29T12:00:00Z
             {% endif %}
           {% endfor %}
           <li class="pb-5 list-group-item">
-            <a class="fw-bold" data-toggle="collapse" href="#{{ foldername }}" role="button" aria-expanded="false" aria-controls="{{ foldername }}">
+            <a class="fw-bold h2" data-toggle="collapse" href="#{{ foldername }}" role="button" aria-expanded="false" aria-controls="{{ foldername }}">
               {{ foldername }}    <span class="badge rounded-pill text-bg-light float-end">{{ file_count }}</span>    
             </a>
             <div class="collapse show" id="{{ foldername }}"> <!-- Add the 'show' class here -->

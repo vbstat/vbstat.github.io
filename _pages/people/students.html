@@ -1,35 +1,128 @@
 ---
-layout: people
+layout: page
 permalink: /students
 title: Students
-description: Present Students of Department of Statistcs, Visva-Bharati
+description: Present Students at Department of Statistcs, Visva-Bharati
 ---
 
-   
 
-<div class="container">
-<h1 class="mt-5">Current Students</h1>
-<hr>
-  
+{% assign ug_years = "1st Year,2nd Year,3rd Year" | split: "," %}
+{% assign pg_years = "1st Year,2nd Year" | split: "," %}
+
+<h2><strong>Undergraduate Students</strong></h2>
+
+{% for year in ug_years %}
   <div class="row">
-    {% for program in site.data.students %}
-      <div class="col-md-6">
-        <h2>{{ program.program }} :</h2>
-        {% for year in program.years %}
-          <h3>{{ year.year }}</h3>
-          <ul class="list-group mt-3">
-            {% for student in year.students %}
-              <li class="list-group-item">
-                <div class="d-flex justify-content-between align-items-center">
-                  <h5>{{ student.name }}</h5>
-                  <span class="badge badge-primary">{{ program.program }}</span>
+    <h3 class="pt-5">{{ year }}</h3> <hr>
+
+    {% for student in site.students %}
+      {% if student.ug %}
+        {% capture current_year %}{{ "now" | date: "%Y" }}{% endcapture %}
+        {% assign current_year = current_year | plus: 0 %}
+        {% assign ug_year = student.ug | plus: 0 %}
+        {% assign year_difference = current_year | minus: ug_year %}
+        
+        {% if year == "1st Year" and year_difference == 0 %}
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+            <a href="{{ student.url | relative_url }}">
+              <div class="wrapper card p-1">
+                <div class="img-wrapper">
+                  <img loading="lazy" src="{{ student.image }}" class="img-fluid" alt="{{ student.title }}">
                 </div>
-                <p>Email: {{ student.email }}</p>
-              </li>
-            {% endfor %}
-          </ul>
-        {% endfor %}
-      </div>
+                <div class="content pt-2 p-1">
+                  <h3 class="name">{{ student.title }}</h3>
+                              
+                </div>
+              </div>
+            </a>
+          </div><!-- Col end -->
+        {% endif %}
+        
+        {% if year == "2nd Year" and year_difference == 1 %}
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+            <a href="{{ student.url | relative_url }}">
+              <div class="wrapper card p-1">
+                <div class="img-wrapper">
+                  <img loading="lazy" src="{{ student.image }}" class="img-fluid" alt="{{ student.title }}">
+                </div>
+                <div class="content pt-2 p-1">
+                  <h3 class="name">{{ student.title }}</h3>
+                              
+                </div>
+              </div>
+            </a>
+          </div><!-- Col end -->
+        {% endif %}
+        
+        {% if year == "3rd Year" and year_difference == 2 %}
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+            <a href="{{ student.url | relative_url }}">
+              <div class="wrapper card p-1">
+                <div class="img-wrapper">
+                  <img loading="lazy" src="{{ student.image }}" class="img-fluid" alt="{{ student.title }}">
+                </div>
+                <div class="content pt-2 p-1">
+                  <h3 class="name">{{ student.title }}</h3>
+                              
+                </div>
+              </div>
+            </a>
+          </div><!-- Col end -->
+        {% endif %}
+      {% endif %}
     {% endfor %}
-  </div>
-</div>
+  </div><!-- Row end -->
+{% endfor %}
+
+
+
+<h2 class="pt-5"><strong>Postgraduate Students</strong></h2> 
+
+
+
+{% for year in pg_years %}
+  <div class="row">
+    <h3 class="pt-5">{{ year }}</h3> <hr>
+
+    {% for student in site.students %}
+      {% if student.pg %}
+        {% capture current_year %}{{ "now" | date: "%Y" }}{% endcapture %}
+        {% assign current_year = current_year | plus: 0 %}
+        {% assign pg_year = student.pg | plus: 0 %}
+        {% assign year_difference = current_year | minus: pg_year %}
+        
+        {% if year == "1st Year" and year_difference == 0 %}
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+            <a href="{{ student.url | relative_url }}">
+              <div class="wrapper card p-1">
+                <div class="img-wrapper">
+                  <img loading="lazy" src="{{ student.image }}" class="img-fluid" alt="{{ student.title }}">
+                </div>
+                <div class="content pt-2 p-1">
+                  <h3 class="name">{{ student.title }}</h3>
+                              
+                </div>
+              </div>
+            </a>
+          </div><!-- Col end -->
+        {% endif %}
+        
+        {% if year == "2nd Year" and year_difference == 1 %}
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+            <a href="{{ student.url | relative_url }}">
+            <div class="wrapper card p-1">
+              <div class="img-wrapper">
+                <img loading="lazy" src="{{ student.image }}" class="img-fluid" alt="{{ student.title }}">
+              </div>
+              <div class="content pt-2 p-1">
+                <h3 class="name">{{ student.title }}</h3>
+                            
+              </div>
+            </div>
+          </a>
+          </div><!-- Col end -->
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div><!-- Row end -->
+{% endfor %}
