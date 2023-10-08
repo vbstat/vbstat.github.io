@@ -1,0 +1,19 @@
+BSC-CT-602 Multivariate Analysis and Nonparametric Methods(Theory) Credit 4
+
+UNIT I
+Bivariate Normal Distribution (BVN): p.d.f. of BVN, properties of BVN, marginal and
+conditional p.d.f. of BVN.
+Multivariate Data: Random Vector: Probability mass/density functions, Distribution
+function, Mean vector & Dispersion matrix, Marginal & Conditional distributions.
+UNIT II
+Multivariate Normal distribution and its properties. Sampling distribution for mean vector
+and variance- covariance matrix. Multiple and partial correlation coefficient and their
+properties.
+UNIT III
+Applications of Multivariate Analysis: Discriminant Analysis, Principal Components
+Analysis and Factor Analysis.
+UNIT IV
+Nonparametric Tests: Introduction and Concept, Test for randomness based on total
+number of runs, Empirical distribution function, Kolmogrov Smirnov test for one sample,
+Sign tests- one sample and two samples, Wilcoxon-Mann-Whitney test, Kruskal-Wallis
+test. 
