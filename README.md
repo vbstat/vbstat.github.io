@@ -1,4 +1,3 @@
-
 ## Clone reposetory
 ```
 git clone https://github.com/mrinalcs/vbstat.git
@@ -48,18 +47,18 @@ description: ""  # for meta description
 ###  Students
 ```
 ---
-title: Mrinal Chandra Sarkar                    
+title: Mrinal                    
 date: 2023-09-10T13:45:06+10:00    # date of update 
-image: "/assets/images/student/mrinal-chandra-sarkar.jpg" 
-email: mrinalvbu@gmail.com
-facebook: "mrinalcs"       # profile id || link || username 
-instagram: "mrinalcs"
-linkedin: "mrinalchandrasarkar"     
-github: "mrinalcs"             
-twitter: "mrinalcs"      
-youtube: "mrinalcs"         # if any username || profile link
-mobile: "95934579**"        # comment out or/to remove
-website: "mrinal.tk"        # if any 
+image: "/assets/images/student/mrinal.jpg" 
+email: 
+facebook: ""       # profile id || link || username 
+instagram: ""
+linkedin: ""     
+github: ""             
+twitter: ""      
+youtube: ""         # if any username || profile link
+mobile: ""        # comment out or/to remove
+website: ""        # if any 
 googlescholar: ""           # for scholars
 description: ""             # add meta description for your profile
 degrees:                    # add your qualifications
