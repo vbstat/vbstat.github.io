@@ -18,6 +18,19 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="{{ site.url }}/assets/fontawesome/css/all.min.css">
 
+    <script>
+      const connectivityStatus = document.querySelector(
+          '.connectivity-status'
+      );
+
+      if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () =>
+              navigator.serviceWorker.register('serviceWorker.js')
+          );
+      }
+
+    </script>
+
   </body>
 
 </html>

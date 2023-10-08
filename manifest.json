@@ -1,0 +1,15 @@
+{
+  "short_name": "VBSTAT",
+  "name": "Department of Statistics",
+  "icons": [
+    {
+      "src": "assets/images/logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://vbstat.github.io/",
+  "background_color": "#FFFFFF",
+  "theme_color": "#3E82F7",
+  "display": "minimal-ui"
+}
