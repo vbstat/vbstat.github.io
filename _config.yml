@@ -33,6 +33,9 @@ collections:
   students:
     output: true
     permalink: /:title
+    seo:
+      og:
+        type: profile
 
 defaults:
   - scope:
