@@ -9,6 +9,11 @@ description: Scholars of Department of Statistcs, Visva-Bharati
 
    
 
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <i class='fas fa-exclamation-circle'></i>
+    <strong>Incomplete!</strong> You may improve this page <a href="https://github.com/mrinalcs/vbstat/blob/main/_data/scholars.yml"> <i class="fa fa-edit"></i></a>.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
 
 
     <div class="row">
@@ -22,13 +27,13 @@ description: Scholars of Department of Statistcs, Visva-Bharati
         <div class="col-lg-3 col-md-4 col-sm-6 mb-5  ">
           <div class="ts-team-wrapper">
             <div class="team-img-wrapper">
-              <img loading="lazy" src="{{ scholar.image }}" class="img-fluid" alt="team-img">
+              <img loading="lazy" src="{{ scholar.image }}" class="img-fluid" alt="{{ scholar.name }}" width="150px">
             </div>
             <div class="ts-team-content-classic">
               <h3 class="ts-name">{{ scholar.name }}</h3>
               
               <p class="ts-description">{{ scholar.about }}</p>
-              <p>Email<strong>{{ scholar.email }}</strong></p>
+              <p>Email<strong> {{ scholar.email }}</strong></p>
               
               <!--/ social-icons-->
             </div>

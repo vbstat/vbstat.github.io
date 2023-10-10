@@ -1,53 +1,40 @@
 - name: Soumik Halder
-  email: soumik.halder@example.com
+  email: soumik.halder@visva-bharati.ac.in
+  image: /assets/images/scholars/Soumik Halder.jpg
+  publication:
+    - Artificial Intelligence
+    - Machine Learning
+  about: >
+    Soumik Halder is Assistant Professor in the Department of Computer Science at CU.
+  year: 2019
+  area_of_research: Machine Learning
+
+
+- name: Shovan Biswas
+  email: shovan.biswas@visva-bharati.ac.in
   image: /assets/images/scholars/pata.png
   publication:
     - Artificial Intelligence
     - Machine Learning
   about: >
-    Soumik Halder is a Professor in the Department of Computer Science at XYZ University.
-    H language processing and computer vision.
-  year: 2005
+    Assistant Professor of Statistics at Barddhaman raj college
+  year: 2019
   area_of_research: Machine Learning
 
 
-- name: Soumik Halder
-  email: soumik.halder@example.com
+- name: Anumita Mondal
+  email: anumita.mondal@visva-bharati.ac.in
   image: /assets/images/scholars/pata.png
   publication:
     - Artificial Intelligence
     - Machine Learning
   about: >
-    Soumik Halder is a Professor in the Department of Computer Science at XYZ University.
-    H language processing and computer vision.
-  year: 2005
+    Assistant Professor of Statistics at Barddhaman raj college
+  year: 2019
   area_of_research: Machine Learning
 
 
 
-
-- name: Soumik Halder
-  email: soumik.halder@example.com
-  image: /assets/images/scholars/pata.png
-  publication:
-    - Artificial Intelligence
-    - Machine Learning
-  about: >
-    Soumik Halder is a Professor in the Department of Computer Science at XYZ University.
-    H language processing and computer vision.
-  year: 2005
-  area_of_research: Machine Learning
-
-
-
-- name: Soumik Halder
-  email: soumik.halder@example.com
-  image: /assets/images/scholars/pata.png
-  publication:
-    - Artificial Intelligence
-    - Machine Learning
-  about: >
-    Soumik Halder is a Professor in the Department of Computer Science at XYZ University.
-    H language processing and computer vision.
-  year: 2005
-  area_of_research: Machine Learning
+ 
+ 
+ 
