@@ -6,6 +6,7 @@ title: Contact
 description: Contact adresses of  Statistcs department Visva-Bharati
 ---
 
+## Email address
 
  If you have any questions, please contact the HOD of Statistics at: \
  <a href="mailto:hod.statistics@visva-bharati.ac.in">hod.statistics@visva-bharati.ac.in</a>
@@ -15,7 +16,7 @@ description: Contact adresses of  Statistcs department Visva-Bharati
 
 <hr>
 
-Institutional E-mail IDs of officials of the university:
+## Institutional E-mail IDs of officials of the university:
 
 | Sl. No. | Designation                               | E-Mail ID                        |
 | ------- | ---------------------------------------- | -------------------------------- |
