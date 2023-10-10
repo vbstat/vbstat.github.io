@@ -1,7 +1,7 @@
 ---
-title: Sandip Mishra                  
+title: Sourjya Sen                 
 date: 2023-09-10T13:45:06+10:00                # last updated
-image: "/assets/images/student/Sandip Mishra.jpg"   # rekative path 
+image: "/assets/images/student/Sourjya Sen.jpg"   # rekative path 
 email: papumahanta@gmail.com
 facebook: "papuart"        
 instagram: "papuart"
