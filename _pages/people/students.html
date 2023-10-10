@@ -23,49 +23,28 @@ description: Present Students at Department of Statistcs, Visva-Bharati
         {% assign year_difference = current_year | minus: ug_year %}
         
         {% if year == "1st Year" and year_difference == 0 %}
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-            <a href="{{ student.url | relative_url }}">
-              <div class="wrapper p-1">
-                <div class="img-wrapper">
-                  <img loading="lazy" src="{{ student.image }}" class="img-fluid" alt="{{ student.title }}" width="200px">
-                </div>
-                <div class="content pt-2 p-1">
-                  <h3 class="name">{{ student.title }}</h3>
-                              
-                </div>
-              </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 text-truncate">
+            <a  class="list-group-item  " href="{{ student.url | relative_url }}">
+              <img loading="lazy" src="{{ student.image }}"  alt="{{ student.title }}" width="32" height="32" class="rounded me-2" >
+              <span><strong>{{ student.title }}</strong></span> 
             </a>
           </div><!-- Col end -->
         {% endif %}
         
         {% if year == "2nd Year" and year_difference == 1 %}
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-            <a href="{{ student.url | relative_url }}">
-              <div class="wrapper p-1">
-                <div class="img-wrapper">
-                  <img loading="lazy" src="{{ student.image }}" class="img-fluid" alt="{{ student.title }}" width="200px">
-                </div>
-                <div class="content pt-2 p-1">
-                  <h3 class="name">{{ student.title }}</h3>
-                              
-                </div>
-              </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 text-truncate">
+            <a  class="list-group-item  " href="{{ student.url | relative_url }}">
+              <img loading="lazy" src="{{ student.image }}"  alt="{{ student.title }}" width="32" height="32" class="rounded me-2" >
+              <span><strong>{{ student.title }}</strong></span> 
             </a>
           </div><!-- Col end -->
         {% endif %}
         
         {% if year == "3rd Year" and year_difference == 2 %}
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-            <a href="{{ student.url | relative_url }}">
-              <div class="wrapper p-1">
-                <div class="img-wrapper">
-                  <img loading="lazy" src="{{ student.image }}" class="img-fluid" alt="{{ student.title }}" width="200px">
-                </div>
-                <div class="content pt-2 p-1">
-                  <h3 class="name">{{ student.title }}</h3>
-                              
-                </div>
-              </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 text-truncate">
+            <a  class="list-group-item  " href="{{ student.url | relative_url }}">
+              <img loading="lazy" src="{{ student.image }}"  alt="{{ student.title }}" width="32" height="32" class="rounded me-2" >
+              <span><strong>{{ student.title }}</strong></span> 
             </a>
           </div><!-- Col end -->
         {% endif %}
@@ -92,34 +71,20 @@ description: Present Students at Department of Statistcs, Visva-Bharati
         {% assign year_difference = current_year | minus: pg_year %}
         
         {% if year == "1st Year" and year_difference == 0 %}
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-            <a href="{{ student.url | relative_url }}">
-              <div class="wrapper p-1">
-                <div class="img-wrapper">
-                  <img loading="lazy" src="{{ student.image }}" class="img-fluid" alt="{{ student.title }}" width="200px">
-                </div>
-                <div class="content pt-2 p-1">
-                  <h3 class="name">{{ student.title }}</h3>
-                              
-                </div>
-              </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 text-truncate">
+            <a  class="list-group-item" href="{{ student.url | relative_url }}">
+              <img loading="lazy" src="{{ student.image }}"  alt="{{ student.title }}" width="32" height="32" class="rounded me-2" >
+              <span><strong>{{ student.title }}</strong></span> 
             </a>
           </div><!-- Col end -->
         {% endif %}
         
         {% if year == "2nd Year" and year_difference == 1 %}
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-            <a href="{{ student.url | relative_url }}">
-            <div class="wrapper p-1">
-              <div class="img-wrapper">
-                <img loading="lazy" src="{{ student.image }}" class="img-fluid" alt="{{ student.title }}" width="200px">
-              </div>
-              <div class="content pt-2 p-1">
-                <h3 class="name">{{ student.title }}</h3>
-                            
-              </div>
-            </div>
-          </a>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 text-truncate">
+            <a  class="list-group-item  " href="{{ student.url | relative_url }}">
+              <img loading="lazy" src="{{ student.image }}"  alt="{{ student.title }}" width="32" height="32" class="rounded me-2" >
+              <span><strong>{{ student.title }}</strong></span> 
+            </a>
           </div><!-- Col end -->
         {% endif %}
       {% endif %}
