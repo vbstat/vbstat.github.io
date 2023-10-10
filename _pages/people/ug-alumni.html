@@ -40,11 +40,11 @@ description: UG Alumni of Department of Statistcs, Visva-Bharati
         {% if year_difference > 2 and ug_year == year %}
           <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
             <a href="{{ student.url | relative_url }}">
-              <div class="wrapper card p-1">
+              <div class="wrapper p-1">
                 <div class="img-wrapper">
-                  <img loading="lazy" src="{{ student.image }}" class="img-fluid" alt="{{ student.title }}" width="100%">
+                  <img loading="lazy" src="{{ student.image }}" class="img-fluid" alt="{{ student.title }}" width="200px">
                 </div>
-                <div class="content pt-2 p-1">
+                <div class="content pt-2">
                   <h3 class="name">{{ student.title }}</h3>
                               {% if student.working == null or student.working == "" %}
               {% assign last_degree = student.degrees | last %}
