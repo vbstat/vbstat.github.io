@@ -1,5 +1,5 @@
 # VBSTAT
-Handouts and Notes BSc Statistics VisvaBharati. You can clone or fork this repository to work on the project locally or contribute to its development.
+Handouts and Notes BSc Statistics VisvaBharati.
 
 ## Run Locally
 
@@ -16,24 +16,7 @@ jekyll serve
 ```
 
 ## Contribute
-[Fork reposetory](https://github.com/mrinalcs/vbstat/fork)
-
-
-## branches summery
-- [v1](https://github.com/mrinalcs/vbstat/tree/v1)
-  -  just to backup
-- [v2](https://github.com/mrinalcs/vbstat/tree/v2)
-  - notes listing
-  - question paper list based on folder structure
-  - along with all basic pages 
-  - faculty scholar alumni project page
-- [v3](https://github.com/mrinalcs/vbstat/tree/v3)
-  - bootstrap sass
-  - faculty single page
-- [main](https://github.com/mrinalcs/vbstat/tree/main)
-  - student alumni page based on front matter
-
-
+Feel free to contribute [Fork reposetory](https://github.com/mrinalcs/vbstat/fork)
 
 
 ## Resouces
@@ -41,41 +24,8 @@ jekyll serve
 - **Font Awesome**: For Icons.
 
 
+## License
 
-## Timeline
-- Nav>dropdown>button
-- Dropdown,Hamberger>Icon toogle 
+This work is published under [MIT][mit] License.
 
-- New jekyll project
-- Instead Bootstrap setup SASS
-
-- page > about,location,contact,admission(ug,pg,phd),notice,event done 
-
-- question-paper dynamically listing + filtering done
-
-- notes > listing+count+id
-- faculty,student,alumni yml created 
-- another way >  add collection>faculty
-
-- similarly based on front matter fiter students
-```
-ug-alumni : iff ug != null || ug+3 <= current_year
-pg-alumni : iff pg != null || pg+2 <= current_year
-
-*** sep || year
-
-students: bsc#1st-year iff  ug == current_year
-students: bsc#2st-year iff  ug+1 == current_year
-students: bsc#3st-year iff  ug+2 == current_year
-students: msc#1st-year = 2023 = current yaer
-students: msc#2st-year = 2023 = current yaer
-```
-
-alternatively first calculate difference 
-
-0
-1
-2
-
-0
-1
+[mit]: https://github.com/mrinalcs/vbstat/blob/main/LICENSE
