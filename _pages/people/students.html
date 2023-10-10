@@ -9,12 +9,14 @@ description: Present Students at Department of Statistcs, Visva-Bharati
 {% assign ug_years = "1st Year,2nd Year,3rd Year" | split: "," %}
 {% assign pg_years = "1st Year,2nd Year" | split: "," %}
 
-<h2><strong>Undergraduate Students</strong></h2>
+<h2 id="ug"><strong>Undergraduate Students</strong></h2>
 
 {% for year in ug_years %}
-  <div class="row">
-    <h3 class="pt-5">{{ year }}</h3> <hr>
-
+  <div id="ug-{{ year | replace: ' ', '-' | downcase }}" class="row">
+    <a href="#ug-{{ year | replace: ' ', '-' | downcase }}">
+    <h3 class="pt-5">{{ year }}</h3>
+    </a>
+    <hr>
     {% for student in site.students %}
       {% if student.ug %}
         {% capture current_year %}{{ "now" | date: "%Y" }}{% endcapture %}
@@ -55,13 +57,16 @@ description: Present Students at Department of Statistcs, Visva-Bharati
 
 
 
-<h2 class="pt-5"><strong>Postgraduate Students</strong></h2> 
+<h2 class="pt-5" id="pg"><strong>Postgraduate Students</strong></h2> 
 
 
 
 {% for year in pg_years %}
-  <div class="row">
-    <h3 class="pt-5">{{ year }}</h3> <hr>
+  <div id="pg-{{ year | replace: ' ', '-' | downcase }}" class="row">
+    <a href="#pg-{{ year | replace: ' ', '-' | downcase }}">
+    <h3 class="pt-5">{{ year }}</h3>
+    </a>
+    <hr>
 
     {% for student in site.students %}
       {% if student.pg %}
