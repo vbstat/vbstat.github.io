@@ -13,11 +13,8 @@ instagram: "papuart"
 description: ""        # for meta description
 degrees:
   - name: B.Sc Statistics            
-    passing_year: 2023
-  - name: Pursuing M.Sc in Statistics
-    passing_year:  
+    passing_year: 2023 
 ug: 2020     # iff from vb , to  be used for alumni , student page
-pg: 2023     # iff from vb , same
 working: ""
 ---
 
