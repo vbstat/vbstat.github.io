@@ -14,6 +14,10 @@ Logo:
   alt: Visva-Bharati Logo
   title: Department of Statistics
 
+
+webmaster_verifications:
+  google: MqwDRSLNo0fmAemi7VVB_g6f7Z9KU9u_EhcaU9icYbQ
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
