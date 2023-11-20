@@ -1,9 +1,9 @@
 ---
 title: Ayan Choudhury                    
-date: 2023-09-10T13:45:06+10:00                # last updated
+date: 2023-11-20T13:45:06+10:00                # last updated
 image: "/assets/images/student/Ayan Choudhury.jpg"   # rekative path 
-email: papumahanta@gmail.com
-facebook: "papuart"        
+email: ayanchoudhury2002@gmail.com
+facebook: "https://www.facebook.com/profile.php?id=100048801183870&mibextid=ZbWKwL"        
 instagram: "papuart"
 # linkedin: ""               # if not applied comment out or remove
 # github: ""              
@@ -30,4 +30,4 @@ working: ""
 
 
 ## some about me
-lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem 
+student 
