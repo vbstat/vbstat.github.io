@@ -1,6 +1,6 @@
 ---
 title: Mrinal Chandra Sarkar                    
-date: 2023-09-10T13:45:06+10:00                # last updated for seo
+date: 2023-11-20T13:45:06+10:00                # last updated for seo
 image: "/assets/images/student/mrinal-chandra-sarkar.jpg"   # rekative path 
 email: mrinalvbu@gmail.com
 facebook: "mrinalcs"        
@@ -9,7 +9,7 @@ linkedin: "mrinalchandrasarkar"
 github: "mrinalcs"              
 # twitter: "mrinalcs"
 # youtube: "mrinalcs"
-mobile: "9831695750" 
+mobile: "9593457937" 
 website: "mrinal.tk"
 # googlescholar: ""    
 description: ""        # for meta description
@@ -42,25 +42,3 @@ But my interests don't stop at statistics alone. I have a keen passion for web d
 If you'd like to get in touch with me, feel free to reach out via email at mrinalvbu@gmail.com. Additionally, you can visit my website at www.mrinal.tk to see some of my web design projects and learn more about my work. Connect with me on LinkedIn at in/mrinalchandrasarkar to stay updated on my professional journey and to engage in discussions on statistics and web design.
 
 In summary, I am Mrinal Chandra Sarkar, a passionate statistics enthusiast pursuing an M.Sc. in Statistics while nurturing my creative side through web design. I am excited about the possibilities that lie ahead in these fields and am always eager to learn, collaborate, and create. Feel free to connect and join me on this exciting journey of discovery and innovation.
-
-
-
- 
-
-
-
-## logic  
-```
-current_year=2023
-
-ug-alumni : iff ug != null || ug+3 <= current_year
-pg-alumni : iff pg != null || pg+2 <= current_year
-
-*** sep || year
-
-students: bsc#1st-year iff  ug == current_year
-students: bsc#2st-year iff  ug+1 == current_year
-students: bsc#3st-year iff  ug+2 == current_year
-students: msc#1st-year = 2023 = current yaer
-students: msc#2st-year = 2023 = current yaer
-```

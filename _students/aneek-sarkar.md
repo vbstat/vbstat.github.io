@@ -1,6 +1,6 @@
 ---
 title: Aneek Sarkar                   
-date: 2023-09-10T13:45:06+10:00                # last updated
+date: 2023-11-20T13:45:06+10:00                # last updated
 image: "/assets/images/student/aneek-sarkar.jpg"   # rekative path 
 email: abirchatterjee206@gmail.com
 facebook: "aneek.sarkar.100"        
@@ -19,7 +19,7 @@ degrees:
 website: "adphotography1007.blogspot.com"
 # googlescholar: "" 
 ug: 2020     # iff from vb , to  be used for alumni , student page
-pg: 2023     # iff from vb , same
+# pg: 2023     # iff from vb , same
 working: ""
 ---
 
