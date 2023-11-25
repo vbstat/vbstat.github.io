@@ -1,13 +1,12 @@
 url: "https://vbstat.github.io"
-title: Department of Statistics
+title: "Department of Statistics, Visva-Bharti"
 author:
   name: Mrinal Chandra Sarkar
   github: mrinalcs
   email: hi@mrinal.tk
   repo: vbstat
 
-description: >- 
-  VBSTAT
+ 
 
 Logo:
   path: /assets/images/logo.png
