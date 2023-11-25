@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /department-location
-date: 2023-11-17T12:00:00Z
+date: 2023-11-25T12:00:00Z
 title: Department Location
 description: Location of Department how to reach nearest Railwaystation and Bustand
 ---
