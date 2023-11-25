@@ -27,6 +27,6 @@ For those traveling by bus, the Jambuni Bolpur Bus Stand is the closest terminal
 
 The extended unit is situated at shrimantapalli, Shantiniketan. Which is approx 1.7 Km from the main department in siksha bhavana.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d5167.485376987212!2d87.67758452411444!3d23.677247097291534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDQwJzI5LjUiTiA4N8KwNDAnNTMuMyJF!5e0!3m2!1sen!2sin!4v1700283659910!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5167.453211120161!2d87.67803618122615!3d23.678060426207256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f9dddb5b5ef803%3A0x56d661626b7d9da4!2sDepartment%20of%20Statistics%20Extended%20Unit!5e0!3m2!1sen!2sin!4v1700892131895!5m2!1sen!2sin" width="100%" height="450"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-[Get Direction of Extended Unit <i class='far fa-map'></i> ](https://goo.gl/maps/5XMvUVHvxANZemB79)
+[Get Direction of Extended Unit <i class='far fa-map'></i> ](https://maps.app.goo.gl/znUb95AbpF2hFVHu8)
