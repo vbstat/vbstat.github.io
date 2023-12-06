@@ -38,6 +38,8 @@ menu:
     link: /question-papers  
   - label: Notes
     link: /notes
+  - label: Msc
+    link: /msc
   - label: Events
     link: /events
   - label: Notice
