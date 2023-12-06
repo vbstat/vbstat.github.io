@@ -1,0 +1,55 @@
+---
+layout: page
+permalink: /msc
+title: MSc 
+description: Notes MSc notes handouts and pdfs
+date: 2023-12-05T12:00:00Z
+---
+
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <i class='fas fa-exclamation-circle'></i>
+  <strong>This page is Incomplete!</strong>  . Last updated on  {{ page.date | date: "%B %d, %Y" }}
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+ 
+
+<div class="container mt-5 mb-5">
+  <a href="/syllabus/MSc in Statistics Syllabus 2020-21.pdf" class="btn btn-primary">MSc in Statistics Syllabus 2020-21.pdf</a>
+</div>
+
+
+<ul class="list-group text-break">
+    {% assign folder_counts = "" %}
+    {% for folder in site.static_files %}
+      {% if folder.path contains '/msc/' and folder.path != '/msc/' %}
+        {% assign parts = folder.path | split: '/' %}
+        {% assign foldername = parts[2] %}
+        {% unless folder_counts contains foldername %}
+          {% assign file_count = 0 %}
+          {% for file in site.static_files %}
+            {% if file.path contains '/msc/' and file.path contains foldername %}
+              {% assign file_count = file_count | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          <li class="pb-5 list-group-item">
+            <a class="fw-bold h2" data-toggle="collapse" href="#{{ foldername }}" role="button" aria-expanded="false" aria-controls="{{ foldername }}">
+              {{ foldername }}    <span class="badge rounded-pill text-bg-light float-end">{{ file_count }}</span>    
+            </a>
+            <div class="collapse show" id="{{ foldername }}"> <!-- Add the 'show' class here -->
+              <ul>
+                {% for file in site.static_files %}
+                  {% if file.path contains '/msc/' and file.path contains foldername %}
+                    <li><a href="{{ file.path }}">{{ file.name }}</a></li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
+          {% assign folder_counts = folder_counts | append: foldername | append: ";" %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+  
