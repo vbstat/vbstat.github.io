@@ -1,10 +1,10 @@
 ---
 title: Papu Mahanta                    
-date: 2023-09-10T13:45:06+10:00                # last updated
+date: 2023-12-11T13:45:06+10:00                # last updated
 image: "/assets/images/student/Papu Mahanta.jpg"   # rekative path 
-email: papumahanta@gmail.com
+email: papupundra@gmail.com
 facebook: "papuart"        
-instagram: "papumahanta_art_nd_soul"
+instagram: "papumahanta_art_and_soul"
 # linkedin: ""     
 github: "papumahanta"              
 # twitter: ""

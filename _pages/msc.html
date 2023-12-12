@@ -2,10 +2,11 @@
 layout: page
 permalink: /msc
 title: MSc 
-description: Notes MSc notes handouts and pdfs
-date: 2023-12-05T12:00:00Z
+description: MSc notes handouts and pdfs
+date: 2023-12-12
 ---
 
+MSc notes handouts and pdfs
 
 <div class="alert alert-warning alert-dismissible fade show" role="alert">
   <i class='fas fa-exclamation-circle'></i>
@@ -35,13 +36,18 @@ date: 2023-12-05T12:00:00Z
           {% endfor %}
           <li class="pb-5 list-group-item">
             <a class="fw-bold h2" data-toggle="collapse" href="#{{ foldername }}" role="button" aria-expanded="false" aria-controls="{{ foldername }}">
-              {{ foldername }}    <span class="badge rounded-pill text-bg-light float-end">{{ file_count }}</span>    
+              {{ foldername | capitalize | replace: '-', ' ' }}  
+              
+              {% if foldername  == 'linear-model' %} * {% endif %}
+              {% if foldername  == 'measure-theory' %} * {% endif %}
+              
+              <span class="badge rounded-pill text-bg-light float-end">{{ file_count }}</span>    
             </a>
             <div class="collapse show" id="{{ foldername }}"> <!-- Add the 'show' class here -->
               <ul>
                 {% for file in site.static_files %}
                   {% if file.path contains '/msc/' and file.path contains foldername %}
-                    <li><a href="{{ file.path }}">{{ file.name }}</a></li>
+                    <li><a href="{{ file.path }}">{{ file.name | capitalize | replace: '-', ' ' }}</a></li>
                   {% endif %}
                 {% endfor %}
               </ul>
@@ -52,4 +58,50 @@ date: 2023-12-05T12:00:00Z
       {% endif %}
     {% endfor %}
   </ul>
+  
+
+
+  
+
+
+<hr>
+ 
+ <h2>Previous year Questions</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Semester</th>
+        <th scope="col">PDF File</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>odd</td>
+        <td><a href="https://github.com/mrinalcs/vbstat/blob/main/msc/~previous-year-questions/2017_MSC_Odd.pdf" target="_blank">2017_MSC_Odd.pdf</a></td>
+      </tr>
+      <tr>
+        <td>odd</td>
+        <td><a href="https://github.com/mrinalcs/vbstat/blob/main/msc/~previous-year-questions/2018_MSC_Odd.pdf" target="_blank">2018_MSC_Odd.pdf</a></td>
+      </tr>
+      <tr>
+        <td>odd</td>
+        <td><a href="https://github.com/mrinalcs/vbstat/blob/main/msc/~previous-year-questions/2019_MSC_Odd.pdf" target="_blank">2019_MSC_Odd.pdf</a></td>
+      </tr>
+      <tr>
+        <td>odd</td>
+        <td><a href="https://github.com/mrinalcs/vbstat/blob/main/msc/~previous-year-questions/2021_MSC_Odd.pdf" target="_blank">2021_MSC_Odd.pdf</a></td>
+      </tr>
+    </tbody>
+  </table>
+ 
+
+
+  <div class="alert alert-danger mt-5" >
+    <strong>Note:</strong> * This page is not intended to host this. However, a freely available PDF version can be found on the internet.  If there is any mistake or concern, sincerely apologize. Please contact.
+  </div>
+
+
+
+
+
   
