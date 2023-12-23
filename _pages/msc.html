@@ -8,13 +8,13 @@ date: 2023-12-22
 
 
 <p>MSc notes handouts and pdfs</p>
-
+<!--
 <div class="alert alert-warning alert-dismissible fade show" role="alert">
   <i class='fas fa-exclamation-circle'></i>
   <strong>This page is Incomplete!</strong>  . Last updated on  {{ page.date | date: "%B %d, %Y" }}
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
-
+-->
  
 
 <div class="container mt-5 mb-5">
@@ -43,12 +43,12 @@ date: 2023-12-22
               {% if foldername  == 'linear-model' %} * {% endif %}
               {% if foldername  == 'measure-theory' %} * {% endif %}
               -->
-
-              {% if foldername  == 'sample-survey' %}  by <a href="https://vbstat.github.io/soumalya-mukhopadhyay">SOM</a> {% endif %}
-              {% if foldername  == 'statistical-inference-i' %} by <a href="https://vbstat.github.io/sudhansu-sekhar-maiti">SM</a> {% endif %}
+             </a>
+              {% if foldername  == 'sample-survey' %}  by <a  class="fw-bold h2"  href="https://vbstat.github.io/soumalya-mukhopadhyay">SOM</a> {% endif %}
+              {% if foldername  == 'statistical-inference-i' %} by <a  class="fw-bold h2"  href="https://vbstat.github.io/sudhansu-sekhar-maiti">SM</a> {% endif %}
               
               <span class="badge rounded-pill text-bg-light float-end">{{ file_count }}</span>    
-            </a>
+            
             <div class="collapse show" id="{{ foldername }}"> <!-- Add the 'show' class here -->
               <ul>
                 {% for file in site.static_files %}
