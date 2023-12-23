@@ -3,7 +3,7 @@ layout: page
 permalink: /msc
 title: MSc 
 description: MSc notes handouts and pdfs
-date: 2023-12-12
+date: 2023-12-22
 ---
 
 
@@ -43,6 +43,9 @@ date: 2023-12-12
               {% if foldername  == 'linear-model' %} * {% endif %}
               {% if foldername  == 'measure-theory' %} * {% endif %}
               -->
+
+              {% if foldername  == 'sample-survey' %}  by <a href="https://vbstat.github.io/soumalya-mukhopadhyay">SOM</a> {% endif %}
+              {% if foldername  == 'statistical-inference-i' %} by <a href="https://vbstat.github.io/sudhansu-sekhar-maiti">SM</a> {% endif %}
               
               <span class="badge rounded-pill text-bg-light float-end">{{ file_count }}</span>    
             </a>
