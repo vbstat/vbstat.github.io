@@ -36,7 +36,7 @@ date: 2023-12-22
             {% endif %}
           {% endfor %}
           <li class="pb-5 list-group-item">
-            <a class="fw-bold h2 link-primary" data-toggle="collapse" href="#{{ foldername }}" role="button" aria-expanded="false" aria-controls="{{ foldername }}">
+            <a class="fw-bold h2" data-toggle="collapse" href="#{{ foldername }}" role="button" aria-expanded="false" aria-controls="{{ foldername }}">
               {{ foldername | capitalize | replace: '-', ' ' }}  
 
               <!--
@@ -44,8 +44,8 @@ date: 2023-12-22
               {% if foldername  == 'measure-theory' %} * {% endif %}
               -->
              </a>
-              {% if foldername  == 'sample-survey' %}  by <a  class="fw-bold h3 link-primary"  href="https://vbstat.github.io/soumalya-mukhopadhyay">SOM</a> {% endif %}
-              {% if foldername  == 'statistical-inference-i' %} by <a  class="fw-bold h3 link-primary"  href="https://vbstat.github.io/sudhansu-sekhar-maiti">SM</a> {% endif %}
+              {% if foldername  == 'sample-survey' %}  by <a  class="fw-bold h2"  href="https://vbstat.github.io/soumalya-mukhopadhyay">SOM</a> {% endif %}
+              {% if foldername  == 'statistical-inference-i' %} by <a  class="fw-bold h2"  href="https://vbstat.github.io/sudhansu-sekhar-maiti">SM</a> {% endif %}
               
               <span class="badge rounded-pill text-bg-light float-end">{{ file_count }}</span>    
             
@@ -53,7 +53,7 @@ date: 2023-12-22
               <ul>
                 {% for file in site.static_files %}
                   {% if file.path contains '/msc/' and file.path contains foldername %}
-                    <li><a  target="_blank" class="link-primary" href="{{ file.path }}">{{ file.name | capitalize | replace: '-', ' ' }}</a></li>
+                    <li><a  target="_blank" class="link" href="{{ file.path }}">{{ file.name | capitalize | replace: '-', ' ' }}</a></li>
                   {% endif %}
                 {% endfor %}
               </ul>
