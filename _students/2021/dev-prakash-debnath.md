@@ -17,5 +17,3 @@ degrees:               # change if apply
 ug: 2021     # iff from vb , to  be used for alumni , student page
 ---
  
-## some about me
-lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem 

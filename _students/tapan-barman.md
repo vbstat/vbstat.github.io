@@ -2,7 +2,7 @@
 title: Tapan Barman                    
 date: 2023-09-10T13:45:06+10:00                # last updated
 image: "/assets/images/student/Tapan Barman.jpg"   # rekative path 
-email: papumahanta@gmail.com
+email: tapanbarman@gmail.com
 facebook: "papuart"        
 instagram: "papuart"
 # linkedin: ""     
@@ -22,10 +22,3 @@ working: ""
 ---
 
 
-
-
-
-
-
-## some about me
-lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem 

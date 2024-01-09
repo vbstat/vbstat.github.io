@@ -3,8 +3,8 @@ title: Krishnendu Dutta
 date: 2023-09-10T13:45:06+10:00                # last updated
 image: "/assets/images/student/Krishnendu Dutta.jpg"   # rekative path 
 email: papumahanta@gmail.com
-facebook: "papuart"        
-instagram: "papuart"
+# facebook: ""        
+# instagram: ""
 # linkedin: ""     
 # github: ""              
 # twitter: ""
@@ -27,6 +27,3 @@ working: ""
 
 
 
-
-## some about me
-lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem 

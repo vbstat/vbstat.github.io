@@ -3,8 +3,8 @@ title: Subrata Sahu
 date: 2023-09-10T13:45:06+10:00                # last updated
 image: "/assets/images/student/Subrata Sahu.jpg"   # rekative path 
 email: papumahanta@gmail.com
-facebook: "papuart"        
-instagram: "papuart"
+# facebook: ""        
+# instagram: ""
 # linkedin: ""     
 # github: ""              
 # twitter: ""
@@ -23,8 +23,3 @@ working: ""
 
 
 
-
-
-
-## some about me
-lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem 
