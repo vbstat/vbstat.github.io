@@ -36,7 +36,7 @@ date: 2023-12-22
             {% endif %}
           {% endfor %}
           <li class="pb-5 list-group-item">
-            <a class="fw-bold h2" data-toggle="collapse" href="#{{ foldername }}" role="button" aria-expanded="false" aria-controls="{{ foldername }}">
+            <a   id="{{ foldername }}" class="fw-bold h2 pt-5" data-toggle="collapse" href="#{{ foldername }}" role="button" aria-expanded="false" aria-controls="{{ foldername }}">
               {{ foldername | capitalize | replace: '-', ' ' }}  
 
               <!--
@@ -49,7 +49,7 @@ date: 2023-12-22
               
               <span class="badge rounded-pill text-bg-light float-end">{{ file_count }}</span>    
             
-            <div class="collapse show" id="{{ foldername }}"> <!-- Add the 'show' class here -->
+            <div class="collapse show"> <!-- Add the 'show' class here -->
               <ul>
                 {% for file in site.static_files %}
                   {% if file.path contains '/msc/' and file.path contains foldername %}
