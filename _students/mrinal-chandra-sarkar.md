@@ -1,16 +1,16 @@
 ---
 title: Mrinal Chandra Sarkar                    
-date: 2023-11-20T13:45:06+10:00                # last updated for seo
+date: 2024-02-17T13:45:06+10:00                # last updated for seo
 image: "/assets/images/student/mrinal-chandra-sarkar.jpg"   # rekative path 
-email: mrinalvbu@gmail.com
-facebook: "mrinalcs"        
+email: mrinalcs@yahoo.com
+# facebook: "mrinalcs"        
 # instagram: "mrinalcs"
-linkedin: "mrinalcs"     
+# linkedin: "mrinalcs"     
 github: "mrinalcs"              
 # twitter: "mrinalcs"
 # youtube: "mrinalcs"
-mobile: "9593457937" 
-website: "mrinal.tk"
+# mobile: "" 
+website: "mrinalcs.github.io"
 # googlescholar: ""    
 description: ""        # for meta description
 degrees:
@@ -25,8 +25,8 @@ working: "Currently studying"  #  alumni page
 
  
 ## About
- 
-Mrinal Chandra Sarkar Bachelor's degree in Statistics, currently pursuing  M.Sc. in Statistics at Visva Bharati.
+
+Student of M.Sc in Statistics.
  
 
 ## Skills 
