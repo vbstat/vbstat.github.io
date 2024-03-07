@@ -66,5 +66,19 @@ sitemap: false
 </script>
 
 
+<style>
+
+  section#main-container {
+    display: none;
+}
+
+a.btn.btn-secondary {
+  position: sticky;
+  top: 100px;
+  bottom: 10px;
+  float: right;
+}
+  </style>
+
   </div><!-- Conatiner end -->
 </section>
