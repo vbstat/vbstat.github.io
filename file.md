@@ -7,9 +7,7 @@ sitemap: false
 <section id="main-container" class="main-container">
   <div class="container">
  
- <div id="pdfLinkContainer">
-    <!-- The link will be inserted here -->
-</div>
+
 
 <script>
     // Get the current URL
@@ -43,12 +41,15 @@ sitemap: false
     // Set attributes for the iframe
     iframeElement.setAttribute("src", "https://docs.google.com/gview?url=" + pdfURL + "&embedded=true");
     iframeElement.style.width = "100%";
-    iframeElement.style.height = "100vh";
+    iframeElement.style.height = "80vh";
 
     // Append the iframe to the document body
     document.body.appendChild(iframeElement);
 </script>
 
+ <div id="pdfLinkContainer">
+    <!-- The link will be inserted here -->
+</div>
 
   </div><!-- Conatiner end -->
 </section>
