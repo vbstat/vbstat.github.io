@@ -7,13 +7,8 @@ sitemap: false
 <section id="main-container" class="main-container">
   <div class="container">
  
-
- <div id="pdfLinkContainer">
+<div id="pdfLinkContainer">
     <!-- The link will be inserted here -->
-</div>
-
-<div id="iframeContainer">
-    <!-- The iframe will be inserted here -->
 </div>
 
 <script>
@@ -27,25 +22,22 @@ sitemap: false
     // Construct the full URL for the PDF
     var pdfURL = "https://vbstat.github.io/" + path;
 
-    // Create a new link element
-    var linkElement = document.createElement("a");
+    // Create a new link element for the "Download" button
+    var downloadLinkElement = document.createElement("a");
 
     // Set Bootstrap classes for styling
-    linkElement.classList.add("btn", "btn-primary");
+    downloadLinkElement.classList.add("btn", "btn-primary");
 
     // Set the href attribute
-    linkElement.setAttribute("href", pdfURL);
+    downloadLinkElement.setAttribute("href", pdfURL);
 
     // Set the link text
-    linkElement.textContent = "Download";
+    downloadLinkElement.textContent = "Download";
 
-    // Append the link to the container
-    document.getElementById("pdfLinkContainer").appendChild(linkElement);
+    // Append the "Download" button to the container
+    document.getElementById("pdfLinkContainer").appendChild(downloadLinkElement);
 
-    // Get the container for the iframe
-    var iframeContainer = document.getElementById("iframeContainer");
-
-    // Create the iframe element
+    // Get the iframe element
     var iframeElement = document.createElement("iframe");
 
     // Set attributes for the iframe
@@ -53,8 +45,24 @@ sitemap: false
     iframeElement.style.width = "100%";
     iframeElement.style.height = "80vh";
 
-    // Append the iframe to the container
-    iframeContainer.appendChild(iframeElement);
+    // Append the iframe to the document body
+    document.body.appendChild(iframeElement);
+
+    // Create a new link element for the download button after the iframe
+    var downloadButtonAfterIframe = document.createElement("a");
+
+    // Set Bootstrap classes for styling
+    downloadButtonAfterIframe.classList.add("btn", "btn-secondary");
+
+    // Set the href attribute for the download button after the iframe
+    downloadButtonAfterIframe.setAttribute("href", pdfURL);
+    downloadButtonAfterIframe.setAttribute("download", "document.pdf"); // Add 'download' attribute to force download
+
+    // Set the link text
+    downloadButtonAfterIframe.textContent = "Download";
+
+    // Append the download button after the iframe
+    document.body.appendChild(downloadButtonAfterIframe);
 </script>
 
 
