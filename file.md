@@ -76,6 +76,7 @@ a.btn.btn-primary {
      
     position: fixed;
     bottom: 20px;
+  display:none;
 }
   </style>
 
