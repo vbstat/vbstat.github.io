@@ -69,14 +69,13 @@ sitemap: false
 <style>
 
   section#main-container {
-    display: none;
+    display: inline;
 }
 
-a.btn.btn-secondary {
-  position: sticky;
-  top: 100px;
-  bottom: 10px;
-  float: right;
+a.btn.btn-primary {
+     
+    position: fixed;
+    bottom: 20px;
 }
   </style>
 
