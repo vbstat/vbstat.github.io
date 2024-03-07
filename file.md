@@ -8,6 +8,13 @@ sitemap: false
   <div class="container">
  
 
+ <div id="pdfLinkContainer">
+    <!-- The link will be inserted here -->
+</div>
+
+<div id="iframeContainer">
+    <!-- The iframe will be inserted here -->
+</div>
 
 <script>
     // Get the current URL
@@ -35,7 +42,10 @@ sitemap: false
     // Append the link to the container
     document.getElementById("pdfLinkContainer").appendChild(linkElement);
 
-    // Get the iframe element
+    // Get the container for the iframe
+    var iframeContainer = document.getElementById("iframeContainer");
+
+    // Create the iframe element
     var iframeElement = document.createElement("iframe");
 
     // Set attributes for the iframe
@@ -43,13 +53,10 @@ sitemap: false
     iframeElement.style.width = "100%";
     iframeElement.style.height = "80vh";
 
-    // Append the iframe to the document body
-    document.body.appendChild(iframeElement);
+    // Append the iframe to the container
+    iframeContainer.appendChild(iframeElement);
 </script>
 
- <div id="pdfLinkContainer">
-    <!-- The link will be inserted here -->
-</div>
 
   </div><!-- Conatiner end -->
 </section>
