@@ -43,7 +43,7 @@ sitemap: false
     // Set attributes for the iframe
     iframeElement.setAttribute("src", "https://docs.google.com/gview?url=" + pdfURL + "&embedded=true");
     iframeElement.style.width = "100%";
-    iframeElement.style.height = "80vh";
+    iframeElement.style.height = "85vh";
 
     // Append the iframe to the document body
     document.body.appendChild(iframeElement);
@@ -56,7 +56,7 @@ sitemap: false
 
     // Set the href attribute for the download button after the iframe
     downloadButtonAfterIframe.setAttribute("href", pdfURL);
-    downloadButtonAfterIframe.setAttribute("download", "document.pdf"); // Add 'download' attribute to force download
+    downloadButtonAfterIframe.setAttribute("download"); // Add 'download' attribute to force download
 
     // Set the link text
     downloadButtonAfterIframe.textContent = "Download";
