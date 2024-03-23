@@ -78,6 +78,9 @@ a.btn.btn-primary {
     bottom: 20px;
   display:none;
 }
+ footer {
+  display:none;
+ }
   </style>
 
   </div><!-- Conatiner end -->
