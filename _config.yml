@@ -35,7 +35,7 @@ collections:
     output: true
     permalink: /:title
   students:
-    output: false
+    output: true
     permalink: /:title
 
 
